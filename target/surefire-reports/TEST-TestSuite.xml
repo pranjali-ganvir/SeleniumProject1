@@ -1,0 +1,822 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="223.206" tests="5" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\GitProjectsLava\AmazonAutomation\target\test-classes;D:\GitProjectsLava\AmazonAutomation\target\classes;C:\Users\Pranjaly Ganvir\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\Pranjaly Ganvir\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Pranjaly Ganvir\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Pranjaly Ganvir\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\Pranjaly Ganvir\.m2\repository\org\seleniumhq\selenium\selenium-java\4.31.0\selenium-java-4.31.0.jar;C:\Users\Pranjaly Ganvir\.m2\repository\org\seleniumhq\selenium\selenium-api\4.31.0\selenium-api-4.31.0.jar;C:\Users\Pranjaly Ganvir\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\Pranjaly Ganvir\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.31.0\selenium-chrome-driver-4.31.0.jar;C:\Users\Pranjaly Ganvir\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Pranjaly Ganvir\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.31.0\selenium-chromium-driver-4.31.0.jar;C:\Users\Pranjaly Ganvir\.m2\repository\org\seleniumhq\selenium\selenium-json\4.31.0\selenium-json-4.31.0.jar;C:\Users\Pranjaly Ganvir\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.31.0\selenium-manager-4.31.0.jar;C:\Users\Pranjaly Ganvir\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v133\4.31.0\selenium-devtools-v133-4.31.0.jar;C:\Users\Pranjaly Ganvir\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v134\4.31.0\selenium-devtools-v134-4.31.0.jar;C:\Users\Pranjaly Ganvir\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v135\4.31.0\selenium-devtools-v135-4.31.0.jar;C:\Users\Pranjaly Ganvir\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.31.0\selenium-edge-driver-4.31.0.jar;C:\Users\Pranjaly Ganvir\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.31.0\selenium-firefox-driver-4.31.0.jar;C:\Users\Pranjaly Ganvir\.m2\repository\org\seleniumhq\selenium\selenium-http\4.31.0\selenium-http-4.31.0.jar;C:\Users\Pranjaly Ganvir\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.31.0\selenium-ie-driver-4.31.0.jar;C:\Users\Pranjaly Ganvir\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.31.0\selenium-remote-driver-4.31.0.jar;C:\Users\Pranjaly Ganvir\.m2\repository\com\google\guava\guava\33.4.6-jre\guava-33.4.6-jre.jar;C:\Users\Pranjaly Ganvir\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\Pranjaly Ganvir\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Pranjaly Ganvir\.m2\repository\com\google\errorprone\error_prone_annotations\2.36.0\error_prone_annotations-2.36.0.jar;C:\Users\Pranjaly Ganvir\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\Pranjaly Ganvir\.m2\repository\io\opentelemetry\opentelemetry-api\1.48.0\opentelemetry-api-1.48.0.jar;C:\Users\Pranjaly Ganvir\.m2\repository\io\opentelemetry\opentelemetry-context\1.48.0\opentelemetry-context-1.48.0.jar;C:\Users\Pranjaly Ganvir\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.48.0\opentelemetry-exporter-logging-1.48.0.jar;C:\Users\Pranjaly Ganvir\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.48.0\opentelemetry-sdk-common-1.48.0.jar;C:\Users\Pranjaly Ganvir\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.48.0\opentelemetry-sdk-extension-autoconfigure-spi-1.48.0.jar;C:\Users\Pranjaly Ganvir\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.48.0\opentelemetry-sdk-extension-autoconfigure-1.48.0.jar;C:\Users\Pranjaly Ganvir\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.48.0\opentelemetry-sdk-trace-1.48.0.jar;C:\Users\Pranjaly Ganvir\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.48.0\opentelemetry-sdk-1.48.0.jar;C:\Users\Pranjaly Ganvir\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.48.0\opentelemetry-sdk-metrics-1.48.0.jar;C:\Users\Pranjaly Ganvir\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.48.0\opentelemetry-sdk-logs-1.48.0.jar;C:\Users\Pranjaly Ganvir\.m2\repository\net\bytebuddy\byte-buddy\1.17.5\byte-buddy-1.17.5.jar;C:\Users\Pranjaly Ganvir\.m2\repository\org\seleniumhq\selenium\selenium-os\4.31.0\selenium-os-4.31.0.jar;C:\Users\Pranjaly Ganvir\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\Pranjaly Ganvir\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.31.0\selenium-safari-driver-4.31.0.jar;C:\Users\Pranjaly Ganvir\.m2\repository\org\seleniumhq\selenium\selenium-support\4.31.0\selenium-support-4.31.0.jar;C:\Users\Pranjaly Ganvir\.m2\repository\org\apache\poi\poi-ooxml\5.2.3\poi-ooxml-5.2.3.jar;C:\Users\Pranjaly Ganvir\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.3\poi-ooxml-lite-5.2.3.jar;C:\Users\Pranjaly Ganvir\.m2\repository\org\apache\xmlbeans\xmlbeans\5.1.1\xmlbeans-5.1.1.jar;C:\Users\Pranjaly Ganvir\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\Pranjaly Ganvir\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\Pranjaly Ganvir\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Users\Pranjaly Ganvir\.m2\repository\org\apache\logging\log4j\log4j-api\2.18.0\log4j-api-2.18.0.jar;C:\Users\Pranjaly Ganvir\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Pranjaly Ganvir\.m2\repository\org\apache\poi\poi\5.2.3\poi-5.2.3.jar;C:\Users\Pranjaly Ganvir\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\Pranjaly Ganvir\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Pranjaly Ganvir\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\Pranjaly Ganvir\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
+    <property name="sun.java.command" value="C:\Users\Pranjaly Ganvir\AppData\Local\Temp\surefire5606261086165454455\surefirebooter-20250604161735590_3.jar C:\Users\Pranjaly Ganvir\AppData\Local\Temp\surefire5606261086165454455 2025-06-04T16-17-35_107-jvmRun1 surefire-20250604161735590_1tmp surefire_0-20250604161735590_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\GitProjectsLava\AmazonAutomation\target\test-classes;D:\GitProjectsLava\AmazonAutomation\target\classes;C:\Users\Pranjaly Ganvir\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\Pranjaly Ganvir\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Pranjaly Ganvir\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Pranjaly Ganvir\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\Pranjaly Ganvir\.m2\repository\org\seleniumhq\selenium\selenium-java\4.31.0\selenium-java-4.31.0.jar;C:\Users\Pranjaly Ganvir\.m2\repository\org\seleniumhq\selenium\selenium-api\4.31.0\selenium-api-4.31.0.jar;C:\Users\Pranjaly Ganvir\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\Pranjaly Ganvir\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.31.0\selenium-chrome-driver-4.31.0.jar;C:\Users\Pranjaly Ganvir\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Pranjaly Ganvir\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.31.0\selenium-chromium-driver-4.31.0.jar;C:\Users\Pranjaly Ganvir\.m2\repository\org\seleniumhq\selenium\selenium-json\4.31.0\selenium-json-4.31.0.jar;C:\Users\Pranjaly Ganvir\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.31.0\selenium-manager-4.31.0.jar;C:\Users\Pranjaly Ganvir\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v133\4.31.0\selenium-devtools-v133-4.31.0.jar;C:\Users\Pranjaly Ganvir\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v134\4.31.0\selenium-devtools-v134-4.31.0.jar;C:\Users\Pranjaly Ganvir\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v135\4.31.0\selenium-devtools-v135-4.31.0.jar;C:\Users\Pranjaly Ganvir\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.31.0\selenium-edge-driver-4.31.0.jar;C:\Users\Pranjaly Ganvir\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.31.0\selenium-firefox-driver-4.31.0.jar;C:\Users\Pranjaly Ganvir\.m2\repository\org\seleniumhq\selenium\selenium-http\4.31.0\selenium-http-4.31.0.jar;C:\Users\Pranjaly Ganvir\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.31.0\selenium-ie-driver-4.31.0.jar;C:\Users\Pranjaly Ganvir\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.31.0\selenium-remote-driver-4.31.0.jar;C:\Users\Pranjaly Ganvir\.m2\repository\com\google\guava\guava\33.4.6-jre\guava-33.4.6-jre.jar;C:\Users\Pranjaly Ganvir\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\Pranjaly Ganvir\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Pranjaly Ganvir\.m2\repository\com\google\errorprone\error_prone_annotations\2.36.0\error_prone_annotations-2.36.0.jar;C:\Users\Pranjaly Ganvir\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\Pranjaly Ganvir\.m2\repository\io\opentelemetry\opentelemetry-api\1.48.0\opentelemetry-api-1.48.0.jar;C:\Users\Pranjaly Ganvir\.m2\repository\io\opentelemetry\opentelemetry-context\1.48.0\opentelemetry-context-1.48.0.jar;C:\Users\Pranjaly Ganvir\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.48.0\opentelemetry-exporter-logging-1.48.0.jar;C:\Users\Pranjaly Ganvir\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.48.0\opentelemetry-sdk-common-1.48.0.jar;C:\Users\Pranjaly Ganvir\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.48.0\opentelemetry-sdk-extension-autoconfigure-spi-1.48.0.jar;C:\Users\Pranjaly Ganvir\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.48.0\opentelemetry-sdk-extension-autoconfigure-1.48.0.jar;C:\Users\Pranjaly Ganvir\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.48.0\opentelemetry-sdk-trace-1.48.0.jar;C:\Users\Pranjaly Ganvir\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.48.0\opentelemetry-sdk-1.48.0.jar;C:\Users\Pranjaly Ganvir\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.48.0\opentelemetry-sdk-metrics-1.48.0.jar;C:\Users\Pranjaly Ganvir\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.48.0\opentelemetry-sdk-logs-1.48.0.jar;C:\Users\Pranjaly Ganvir\.m2\repository\net\bytebuddy\byte-buddy\1.17.5\byte-buddy-1.17.5.jar;C:\Users\Pranjaly Ganvir\.m2\repository\org\seleniumhq\selenium\selenium-os\4.31.0\selenium-os-4.31.0.jar;C:\Users\Pranjaly Ganvir\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\Pranjaly Ganvir\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.31.0\selenium-safari-driver-4.31.0.jar;C:\Users\Pranjaly Ganvir\.m2\repository\org\seleniumhq\selenium\selenium-support\4.31.0\selenium-support-4.31.0.jar;C:\Users\Pranjaly Ganvir\.m2\repository\org\apache\poi\poi-ooxml\5.2.3\poi-ooxml-5.2.3.jar;C:\Users\Pranjaly Ganvir\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.3\poi-ooxml-lite-5.2.3.jar;C:\Users\Pranjaly Ganvir\.m2\repository\org\apache\xmlbeans\xmlbeans\5.1.1\xmlbeans-5.1.1.jar;C:\Users\Pranjaly Ganvir\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\Pranjaly Ganvir\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\Pranjaly Ganvir\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Users\Pranjaly Ganvir\.m2\repository\org\apache\logging\log4j\log4j-api\2.18.0\log4j-api-2.18.0.jar;C:\Users\Pranjaly Ganvir\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Pranjaly Ganvir\.m2\repository\org\apache\poi\poi\5.2.3\poi-5.2.3.jar;C:\Users\Pranjaly Ganvir\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\Pranjaly Ganvir\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Pranjaly Ganvir\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\Pranjaly Ganvir\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Pranjaly Ganvir"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-01-21"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-21"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\GitProjectsLava\AmazonAutomation"/>
+    <property name="style.color" value="always"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Pranjaly Ganvir\AppData\Local\Temp\surefire5606261086165454455\surefirebooter-20250604161735590_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.6+8-LTS-188"/>
+    <property name="user.name" value="Pranjaly Ganvir"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Pranjaly Ganvir\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\PRANJA~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.6"/>
+    <property name="user.dir" value="D:\GitProjectsLava\AmazonAutomation"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-21\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jdk-21/bin/server;C:/Program Files/Java/jdk-21/bin;C:\Oracle\dbhomeXE\bin;C:\Program Files\Java\jdk-21\bin;D:\db\db_home\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\sfdx\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\Pranjaly Ganvir\.vscode\Microsoft VS Code\bin;C:\Program Files\MongoDB\Server\6.0\bin;C:\Program Files\Java\jdk-21\bin;C:\Program Files\apache-maven-3.9.9\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Program Files\Java\jdk-21\bin;C:\Program Files\sfdx\bin;C:\Users\Pranjaly Ganvir\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\sf\bin;C:\Users\Pranjaly Ganvir\AppData\Local\Microsoft\WindowsApps;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\apache-maven-3.9.9\bin;;C:\Users\Pranjaly Ganvir\eclipse\java-2024-033\eclipse;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="21.0.6+8-LTS-188"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="loginToAmazon" classname="testFiles.TC1_LoginToAmazon" time="12.981">
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Jun 04, 2025 4:17:40 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 137, returning the closest version; found: 135; Please update to a Selenium version that supports CDP version 137
+]]></system-err>
+  </testcase>
+  <testcase name="loginToAmazonSearchProductAddwishlist" classname="testFiles.TC2_LoginToAmazon_SearchProduct_AddToWishlist" time="28.059">
+    <system-err><![CDATA[Jun 04, 2025 4:18:03 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 137, returning the closest version; found: 135; Please update to a Selenium version that supports CDP version 137
+]]></system-err>
+  </testcase>
+  <testcase name="loginToAmazonSearchProductAddCart" classname="testFiles.TC3_LoginToAmazon_SearchProduct_AddToCart" time="31.311">
+    <system-err><![CDATA[Jun 04, 2025 4:18:41 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 137, returning the closest version; found: 135; Please update to a Selenium version that supports CDP version 137
+]]></system-err>
+  </testcase>
+  <testcase name="loginToAmazonAddNewAddressLogout" classname="testFiles.TC4_LoginToAmazon_AddNewAddress_Logout" time="49.511">
+    <failure message="element not interactable&#10;  (Session info: MicrosoftEdge=137.0.3296.52)&#10;Build info: version: &apos;4.31.0&apos;, revision: &apos;1ef9f18787*&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.6&apos;&#10;Driver info: org.openqa.selenium.edge.EdgeDriver&#10;Command: [10df1687a8834bc26ab256a04ab0010e, clickElement {id=f.7A6D4FE16AD2028D638CE412115BA1DF.d.04953DBB64F98A4C138FFFC7639764D9.e.498}]&#10;Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 137.0.3296.52, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:57967}, msedge: {msedgedriverVersion: 137.0.3296.62 (ab09be0c363d..., userDataDir: C:\Users\PRANJA~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57967/devtoo..., se:cdpVersion: 137.0.3296.52, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Element: [[EdgeDriver: MicrosoftEdge on windows (10df1687a8834bc26ab256a04ab0010e)] -&gt; xpath: //span[text()=&apos;Sign Out&apos;]]&#10;Session ID: 10df1687a8834bc26ab256a04ab0010e" type="org.openqa.selenium.ElementNotInteractableException"><![CDATA[org.openqa.selenium.ElementNotInteractableException: 
+element not interactable
+  (Session info: MicrosoftEdge=137.0.3296.52)
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [10df1687a8834bc26ab256a04ab0010e, clickElement {id=f.7A6D4FE16AD2028D638CE412115BA1DF.d.04953DBB64F98A4C138FFFC7639764D9.e.498}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 137.0.3296.52, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:57967}, msedge: {msedgedriverVersion: 137.0.3296.62 (ab09be0c363d..., userDataDir: C:\Users\PRANJA~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57967/devtoo..., se:cdpVersion: 137.0.3296.52, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (10df1687a8834bc26ab256a04ab0010e)] -> xpath: //span[text()='Sign Out']]
+Session ID: 10df1687a8834bc26ab256a04ab0010e
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy9.click(Unknown Source)
+	at sourceFiles.Amazon_HomePage.clickOnSignout(Amazon_HomePage.java:70)
+	at testFiles.TC4_LoginToAmazon_AddNewAddress_Logout.loginToAmazonAddNewAddressLogout(TC4_LoginToAmazon_AddNewAddress_Logout.java:33)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]></failure>
+    <system-err><![CDATA[Jun 04, 2025 4:19:23 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 137, returning the closest version; found: 135; Please update to a Selenium version that supports CDP version 137
+]]></system-err>
+  </testcase>
+  <testcase name="brokenLinks" classname="testFiles.TC5_LoginToAmazon_FindBrokenLinksHomepage_Logout" time="46.833">
+    <system-out><![CDATA[326
+null
+Handled the exception 1
+#skippedLink
+Handled the exception 1
+#twotabsearchtextbox
+Handled the exception 1
+/gp/cart/view.html/?ref_=nav_assist
+Handled the exception 1
+/?ref_=nav_assist
+Handled the exception 1
+/gp/css/order-history/?ref_=nav_assist
+Handled the exception 1
+/ref=nav_logo
+Handled the exception 1
+/ref=nav_logo_prime
+Handled the exception 1
+
+Handled the exception 1
+/customer-preferences/edit?ie=UTF8&preferencesReturnUrl=%2F&ref_=topnav_lang
+Handled the exception 1
+https://www.amazon.in/gp/css/homepage.html?ref_=nav_youraccount_btn
+The link is not valid https://www.amazon.in/gp/css/homepage.html?ref_=nav_youraccount_btn  Forbidden
+/gp/css/order-history?ref_=nav_orders_first
+Handled the exception 1
+/gp/cart/view.html?ref_=nav_cart
+Handled the exception 1
+/hz/wishlist/ls?triggerElementID=createList&ref_=nav_ListFlyout_navFlyout_createList_lv_redirect
+Handled the exception 1
+/wishlist/universal?ref_=nav_ListFlyout_gno_listpop_uwl
+Handled the exception 1
+/baby-reg/homepage?ref_=nav_ListFlyout_gno_listpop_br
+Handled the exception 1
+/discover/?ref_=nav_ListFlyout_sbl
+Handled the exception 1
+/showroom?ref_=nav_ListFlyout_srm_your_desk_wl_in
+Handled the exception 1
+https://www.amazon.in/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.in%2Fgp%2Fyourstore%2Fhome%2F%3Fie%3DUTF8%26ref_%3Dnav_youraccount_switchacct&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=inflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&switch_account=picker&ignoreAuthState=1&_encoding=UTF8
+The link is valid       200https://www.amazon.in/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.in%2Fgp%2Fyourstore%2Fhome%2F%3Fie%3DUTF8%26ref_%3Dnav_youraccount_switchacct&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=inflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&switch_account=picker&ignoreAuthState=1&_encoding=UTF8    OK
+/gp/flex/sign-out.html?path=%2Fgp%2Fyourstore%2Fhome&signIn=1&useRedirectOnSuccess=1&action=sign-out&ref_=nav_AccountFlyout_signout
+Handled the exception 1
+/gp/css/homepage.html?ref_=nav_AccountFlyout_ya
+Handled the exception 1
+/gp/css/order-history?ref_=nav_AccountFlyout_orders
+Handled the exception 1
+/hz/wishlist/ls?requiresSignIn=1&ref_=nav_AccountFlyout_wl
+Handled the exception 1
+/hz/mobile/mission?ref_=nav_AccountFlyout_ci_mcx_mi_d_nf
+Handled the exception 1
+/gp/yourstore?ref_=nav_AccountFlyout_recs
+Handled the exception 1
+https://www.amazon.in/your-product-safety-alerts?ref_=nav_AccountFlyout_flyout_bsx_ypsa
+The link is valid       200https://www.amazon.in/your-product-safety-alerts?ref_=nav_AccountFlyout_flyout_bsx_ypsa    OK
+/gp/primecentral?ref_=nav_AccountFlyout_prime
+Handled the exception 1
+/gp/redirect.html?location=https%3A%2F%2Fwww.primevideo.com%2F%3Fref_%3D_apv&source=nav_linktree&token=13D4F90D28CD96790B94E6091246BB1B2AE9FA05
+Handled the exception 1
+/auto-deliveries?ref_=nav_AccountFlyout_sns
+Handled the exception 1
+/hz5/yourmembershipsandsubscriptions?ref_=nav_AccountFlyout_digital_subscriptions
+Handled the exception 1
+/b/?node=2838698031&ld=AZINSOAYAFlyout&ref_=nav_AccountFlyout_sell
+Handled the exception 1
+/hz/mycd/myx?pageType=content&ref_=nav_AccountFlyout_myk
+Handled the exception 1
+https://www.amazon.in/hz/mycd/digital-console/alldevices?pageType=devices&ref_=nav_accountFlyOut_manage_devices
+The link is valid       200https://www.amazon.in/hz/mycd/digital-console/alldevices?pageType=devices&ref_=nav_accountFlyOut_manage_devices    OK
+https://www.amazon.in/business/register/org/landing?ref_=nav_ya_flyout_b2b_reg_bottom_create
+The link is not valid https://www.amazon.in/business/register/org/landing?ref_=nav_ya_flyout_b2b_reg_bottom_create  Forbidden
+javascript: void(0)
+Handled the exception 1
+/minitv?ref_=nav_avod_desktop_topnav
+Handled the exception 1
+/b/32702023031?node=32702023031&ld=AZINSOANavDesktop_T3&ref_=nav_cs_sell_T3
+Handled the exception 1
+/gp/buyagain?ie=UTF8&ref_=nav_cs_buy_again
+Handled the exception 1
+/gift-card-store/b/?ie=UTF8&node=3704982031&ref_=nav_cs_gc
+Handled the exception 1
+/business/register/org/landing?ref_=nav_cs_business
+Handled the exception 1
+/gp/sva/dashboard?ref_=nav_cs_apay
+Handled the exception 1
+/gp/yourstore/home?ref_=nav_cs_ys
+Handled the exception 1
+/gp/history?ref_=nav_cs_timeline
+Handled the exception 1
+/b/?node=6637738031&ref_=nav_cs_amazonbasics
+Handled the exception 1
+/Books/b/?ie=UTF8&node=976389031&ref_=nav_cs_books
+Handled the exception 1
+/gcx/-/gfhz/?ref_=nav_cs_giftfinder
+Handled the exception 1
+/health-and-personal-care/b/?ie=UTF8&node=1350384031&ref_=nav_cs_hpc
+Handled the exception 1
+/Home-Improvement/b/?ie=UTF8&node=4286640031&ref_=nav_cs_hi
+Handled the exception 1
+/deals?ref_=nav_cs_gb
+Handled the exception 1
+/auto-deliveries/landing?ref_=nav_cs_sns
+Handled the exception 1
+/gp/help/customer/display.html?nodeId=200507590&ref_=nav_cs_help
+Handled the exception 1
+/Gourmet-Specialty-Foods/b/?ie=UTF8&node=2454178031&ref_=nav_cs_grocery
+Handled the exception 1
+/Home-Kitchen/b/?ie=UTF8&node=976442031&ref_=nav_cs_home
+Handled the exception 1
+/gp/bestsellers/?ref_=nav_cs_bestsellers
+Handled the exception 1
+/gp/new-releases/?ref_=nav_cs_newreleases
+Handled the exception 1
+/Toys-Games/b/?ie=UTF8&node=1350380031&ref_=nav_cs_toys
+Handled the exception 1
+/beauty/b/?ie=UTF8&node=1355016031&ref_=nav_cs_beauty
+Handled the exception 1
+/Audible-Books-and-Originals/b/?ie=UTF8&node=17941593031&ref_=nav_cs_audible
+Handled the exception 1
+/mobile-phones/b/?ie=UTF8&node=1389401031&ref_=nav_cs_mobiles
+Handled the exception 1
+/computers-and-accessories/b/?ie=UTF8&node=976392031&ref_=nav_cs_pc
+Handled the exception 1
+/electronics/b/?ie=UTF8&node=976419031&ref_=nav_cs_electronics
+Handled the exception 1
+/Sports/b/?ie=UTF8&node=1984443031&ref_=nav_cs_sports
+Handled the exception 1
+/Kindle-eBooks/b/?ie=UTF8&node=1634753031&ref_=nav_cs_kindle_books
+Handled the exception 1
+/Pet-Supplies/b/?ie=UTF8&node=2454181031&ref_=nav_cs_pets
+Handled the exception 1
+/gp/browse.html?node=6648217031&ref_=nav_cs_fashion
+Handled the exception 1
+/Baby/b/?ie=UTF8&node=1571274031&ref_=nav_cs_baby
+Handled the exception 1
+/prime?ref_=nav_cs_primelink_member
+Handled the exception 1
+null
+Handled the exception 1
+null
+Handled the exception 1
+#
+Handled the exception 1
+/s/?_encoding=UTF8&hidden-keywords=B0BF57RN3K%20%7C%20B0B3RRWSF6%20%7C%20B0BP18W8TM%20%7C%20B0B854R7NS%20%7C%20B09YV4MW2T%20%7C%20B0B5LVS732%20%7C%20B0BRKXXPZ7%20%7C%20B0B3N7LR6K%20%7C%20B09YV4RG4D%20%7C%20B0B3MWYCHQ%20%7C%20B09NVPSCQT%20%7C%20B0BZVGHPCJ%20%7C%20B0BVW2ZVT5%20%7C%20B0BP1GCCK2%20%7C%20B0BWTRJ5MQ%20%7C%20B0BRN5HLXW%20%7C%20B0B5LW5DFQ%20%7C%20B09ZQK9X8G%20%7C%20B0BF54LXW6%20%7C%20B09YV3K34W%20%7C%20B0BF4YBLPX%20%7C%20B0BRPWMVC7%20%7C%20B0BRQFF4HN%20%7C%20B0BP18QB9L%20%7C%20B0BVVWXMB3%20%7C%20B0972BQ2RS%20%7C%20B0B3MZHZS2%20%7C%20B0BF563HB4%20%7C%20B0BJ72WZQ7%20%7C%20B0BRQ1NLLS%20%7C%20B0B6BMWKDP%20%7C%20B0B5LSDT8W%20%7C%20B0BF5C343N%20%7C%20B0BRPWY4GM%20%7C%20B0BRPX1MRG%20%7C%20B09P18XVW6%20%7C%20B0B852Z6GY%20%7C%20B0BRPWSXQZ%20%7C%20B09PLFJ7ZW%20%7C%20B0B3RSDSZ3%20%7C%20B0BVVYXZ1G%20%7C%20B0BVVZCTTQ%20%7C%20B0BR2MCMSY%20%7C%20B0BP1HKG33%20%7C%20B0BDYNRCRC%20%7C%20B0BF54972T%20%7C%20B098T329K3%20%7C%20B0B85414K1%20%7C%20B0BNXDPZD5%20%7C%20B0BRN7HRFW%20%7C%20B0BP1FSCB7%20%7C%20B0BMQL7BVS%20%7C%20B0B3MYPX74%20%7C%20B0BMQMWDZJ%20%7C%20B09YV4DC29%20%7C%20B0BRN59BNQ%20%7C%20B0BP1PH6T4%20%7C%20B0BRMY7DQ9%20%7C%20B09ZL5NR68%20%7C%20B0BRN56N8H%20%7C%20B09YV575RK%20%7C%20B0B2Q1W9WP%20%7C%20B09YV5HHDB%20%7C%20B09RKJRCFM%20%7C%20B09RKD1JD1%20%7C%20B09P1765VX%20%7C%20B0B855X6W2%20%7C%20B09WB54TH4%20%7C%20B0BF4WVPFD%20%7C%20B0BY2C9SD7%20%7C%20B0BRN6P1TV%20%7C%20B0B3N932ZM%20%7C%20B0B3MXZL6Z%20%7C%20B0BRN6BFZF%20%7C%20B0BRPZBZ66%20%7C%20B0BRPWMW4D%20%7C%20B0B853MRMY%20%7C%20B0BP1PN7DX%20%7C%20B093HCLPJ5%20%7C%20B0BRQ1LC8B%20%7C%20B0BRMXW21H%20%7C%20B0B3RS9DNF%20%7C%20B0BRQFWJ35%20%7C%20B094QXS8NJ%20%7C%20B0B3MYTGZD%20%7C%20B0BP18VPT7%20%7C%20B0B3NB9Y3S%20%7C%20B0B2X35B1K%20%7C%20B0BRVRDXG4%20%7C%20B09PRH4H93%20%7C%20B09PNKXSKF%20%7C%20B0BRMYRG6M%20%7C%20B0BRQ12TF1%20%7C%20B0BRPZPKJG%20%7C%20B0BRPZ57WV%20%7C%20B09HZK7ZLH%20%7C%20B0B3NDPCS9%20%7C%20B0BDGMPPH9%20%7C%20B09HHB691Z%20%7C%20B09Q3T87VH%20%7C%20B0BNXFDTZ2%20%7C%20B0BRQFNHQS%20%7C%20B09YV2957W%20%7C%20B0BJ6QYRK8%20%7C%20B0BRKZG4W7%20%7C%20B0BF58NVGM%20%7C%20B0BRQF411D%20%7C%20B0B5LWP12T%20%7C%20B0BRQ21JHZ%20%7C%20B09727J4SQ%20%7C%20B09Q3SHYJ6%20%7C%20B0B53QFZPY%20%7C%20B0BJ6P3K4Y%20%7C%20B09K7SKYY3%20%7C%20B0B59XYKJT%20%7C%20B0BN1ZCCVN%20%7C%20B0BDGLF9HX%20%7C%20B0BP1RN9XR%20%7C%20B0BY2DGB71%20%7C%20B09Q46LYPM%20%7C%20B09YV414XP%20%7C%20B094R1M7VM%20%7C%20B0B3N6V4X4%20%7C%20B0BRVRG946%20%7C%20B0BP1MLLYS%20%7C%20B09YV463SW%20%7C%20B09ZKY62H1%20%7C%20B0BMQN52CW%20%7C%20B0B3N6FXRN%20%7C%20B0BRMWKZZN%20%7C%20B0BDYNXP8L%20%7C%20B0BF5Q75LJ%20%7C%20B097R25DP7%20%7C%20B09YV1WVBW%20%7C%20B0BJ73KHKJ%20%7C%20B0BRPYY1FP%20%7C%20B09728JN7L%20%7C%20B09NVPDLNV%20%7C%20B0BMQMQTPW%20%7C%20B09LCRMJW1%20%7C%20B09NC2TY11%20%7C%20B09728Q829%20%7C%20B0BXSP5BYN%20%7C%20B09NM8LBP2%20%7C%20B0BVW1VW1V%20%7C%20B09NBZJ8NJ%20%7C%20B09Q4K5C7P%20%7C%20B0B7JPTMNX%20%7C%20B09RKCM1J3%20%7C%20B09728QFXY%20%7C%20B09GFPSZGV%20%7C%20B09YV3F8RS%20%7C%20B097F6QT8Z%20%7C%20B0BY2BXYW9%20%7C%20B0BY2C9N11%20%7C%20B0BMQMMDW1%20%7C%20B0BF4WNC4R%20%7C%20B09TTJZG1F%20%7C%20B09TTKHGM7%20%7C%20B0BDGHKP3T%20%7C%20B0B6BLTGTT%20%7C%20B0BF4WLLFQ%20%7C%20B09GFRF1BX%20%7C%20B09BNXQ6BR%20%7C%20B0BXSVKKDR%20%7C%20B0BXSQWF7X%20%7C%20B0BJ6ZWPX5%20%7C%20B0BDZFXDKJ%20%7C%20B0BDGKV5L8%20%7C%20B0BDHCPGN5%20%7C%20B0BJ73NWMC%20%7C%20B0B5LT655H%20%7C%20B0BRVQZ9QK%20%7C%20B0BRPZLPCH%20%7C%20B09Y1LBYKY%20%7C%20B097R2JBDF%20%7C%20B0B46DZ376%20%7C%20B09ZQLGRW3%20%7C%20B0BF5C6SY9%20%7C%20B0BR2MH438%20%7C%20B0BDGMJM6B%20%7C%20B0BF5CX7XF%20%7C%20B0BDZGBTQX%20%7C%20B0BP18NCLQ%20%7C%20B0BVW734MK%20%7C%20B0BF4V72TX%20%7C%20B0B2JSPSQM%20%7C%20B09PRGXJJF%20%7C%20B0BVW4MP8Q%20%7C%20B09ZKY327P%20%7C%20B09ZKV1KKW%20%7C%20B0B2PZ448K%20%7C%20B0BDGNC36P%20%7C%20B0B46D1C65%20%7C%20B09NC1FX43%20%7C%20B0BDGQNYPR%20%7C%20B0BDYR2LP5%20%7C%20B0B5N66FGB%20%7C%20B09Y1LJX1G%20%7C%20B0B3N4KCPZ%20%7C%20B0BVW4LGW8%20%7C%20B09NVPJ3P4%20%7C%20B0B42R4B3L%20%7C%20B0BQ6MSKXT%20%7C%20B0BP1N77VY%20%7C%20B09NVP6HXY%20%7C%20B0BQ6P1BJZ%20%7C%20B09Q3QM3Y8%20%7C%20B09Q3RB4RB%20%7C%20B0BTMMN81R%20%7C%20B0B2JQKBC8%20%7C%20B09Q4MRW85%20%7C%20B0B46FKMQ3%20%7C%20B0BTMLFWW7%20%7C%20B0BR2N6F36%20%7C%20B09RMPKBDC%20%7C%20B0BTMM4HJK%20%7C%20B0BVW4KWKJ%20%7C%20B0BKLK2RL2%20%7C%20B0B8ZLR1Z3%20%7C%20B0BMQLY63N%20%7C%20B09WB6TXBS%20%7C%20B0BTMLCN7P%20%7C%20B097R3CN3Y%20%7C%20B0B56WM84H%20%7C%20B09NM8S1V4%20%7C%20B0BR2MNG31%20%7C%20B0B56YNX15%20%7C%20B0B2JT5RJ1%20%7C%20B0BTMM7CGQ%20%7C%20B0BNXDTNCK%20%7C%20B0BTMK6KMP%20%7C%20B0BQ3MHN6V%20%7C%20B0BQ3QNF1Z%20%7C%20B0BQ3PTBXS%20%7C%20B0BDGMY85X%20%7C%20B097F657N2%20%7C%20B0BTMKWLCF%20%7C%20B09ZKYCDXL%20%7C%20B0BQ6KVKF7%20%7C%20B0BRL1BWLZ%20%7C%20B0B3RF8DQP%20%7C%20B099DSJNVW%20%7C%20B0BJ74PQK6%20%7C%20B09SFZC4R7%20%7C%20B09Q3P6YL4%20%7C%20B0B3RD3PFZ%20%7C%20B09SFYT1Z2%20%7C%20B0BPHVB531%20%7C%20B0BMVT1R78%20%7C%20B0BDYTJM1M%20%7C%20B0BQ6QXPH4&dc=&ref=nb_sb_noss&pd_rd_w=fiPFC&content-id=amzn1.sym.e383be69-14dc-41d5-b9df-82849125c45a&pf_rd_p=e383be69-14dc-41d5-b9df-82849125c45a&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=xmum7&pd_rd_r=e9bec2b3-aaf9-4154-b52e-f7cb02fec564&ref_=pd_hp_d_hero_unk
+Handled the exception 1
+/s/?_encoding=UTF8&k=dreame&rh=n%3A205224204031&ref=nb_sb_noss&pd_rd_w=no4lV&content-id=amzn1.sym.f5968808-0ad1-4838-91ee-8ebed36685f0&pf_rd_p=f5968808-0ad1-4838-91ee-8ebed36685f0&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=xmum7&pd_rd_r=e9bec2b3-aaf9-4154-b52e-f7cb02fec564&ref_=pd_hp_d_hero_unk
+Handled the exception 1
+/l/15390366031/?_encoding=UTF8&pd_rd_w=VP7fq&content-id=amzn1.sym.f860e2e4-5eae-4079-8c36-0c92eaece7f1&pf_rd_p=f860e2e4-5eae-4079-8c36-0c92eaece7f1&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=xmum7&pd_rd_r=e9bec2b3-aaf9-4154-b52e-f7cb02fec564&ref_=pd_hp_d_hero_unk
+Handled the exception 1
+/fashion/?_encoding=UTF8&pd_rd_w=e6vtQ&content-id=amzn1.sym.df883248-cfe0-44ba-ba54-f8a75b251185&pf_rd_p=df883248-cfe0-44ba-ba54-f8a75b251185&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=xmum7&pd_rd_r=e9bec2b3-aaf9-4154-b52e-f7cb02fec564&ref_=pd_hp_d_hero_unk
+Handled the exception 1
+https://www.amazon.in/cbcc/marketpage/?_encoding=UTF8&ref_=apay_gw_hero_cbcc_pc_gw_hero_uc_p_t&pd_rd_w=SpETl&content-id=amzn1.sym.ebf9c8ac-a958-465a-8b1f-d8c11eccba50&pf_rd_p=ebf9c8ac-a958-465a-8b1f-d8c11eccba50&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=xmum7&pd_rd_r=e9bec2b3-aaf9-4154-b52e-f7cb02fec564
+The link is valid       200https://www.amazon.in/cbcc/marketpage/?_encoding=UTF8&ref_=apay_gw_hero_cbcc_pc_gw_hero_uc_p_t&pd_rd_w=SpETl&content-id=amzn1.sym.ebf9c8ac-a958-465a-8b1f-d8c11eccba50&pf_rd_p=ebf9c8ac-a958-465a-8b1f-d8c11eccba50&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=xmum7&pd_rd_r=e9bec2b3-aaf9-4154-b52e-f7cb02fec564    OK
+/b/?_encoding=UTF8&node=206887645031&pd_rd_w=mTidh&content-id=amzn1.sym.3c0fdffd-4887-481e-bd44-841a6df823e6&pf_rd_p=3c0fdffd-4887-481e-bd44-841a6df823e6&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=xmum7&pd_rd_r=e9bec2b3-aaf9-4154-b52e-f7cb02fec564&ref_=pd_hp_d_hero_unk
+Handled the exception 1
+/dp/B0F4DJSLJL/?_encoding=UTF8&pd_rd_w=4dut1&content-id=amzn1.sym.0532fdd7-90d0-416b-a7ec-55684426baa0&pf_rd_p=0532fdd7-90d0-416b-a7ec-55684426baa0&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=xmum7&pd_rd_r=e9bec2b3-aaf9-4154-b52e-f7cb02fec564&ref_=pd_hp_d_hero_unk
+Handled the exception 1
+#
+Handled the exception 1
+/Bacca-Ultraforce-Mid-top-Athletic-Inspired-Sneakers/dp/B07QC22N65/?_encoding=UTF8&pd_rd_w=IYCGt&content-id=amzn1.sym.509965a2-791b-4055-b876-943397d37ed3%3Aamzn1.symc.fc11ad14-99c1-406b-aa77-051d0ba1aade&pf_rd_p=509965a2-791b-4055-b876-943397d37ed3&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=oKviV&pd_rd_r=f8284854-8d73-4707-b054-ea57e42af08d&ref_=pd_hp_d_atf_ci_mcx_mr_ca_hp_atf_d
+Handled the exception 1
+/JQR-Signature-Trendy-Stylish-Sneaker/dp/B0CLJDQ8B2/?_encoding=UTF8&pd_rd_w=IYCGt&content-id=amzn1.sym.509965a2-791b-4055-b876-943397d37ed3%3Aamzn1.symc.fc11ad14-99c1-406b-aa77-051d0ba1aade&pf_rd_p=509965a2-791b-4055-b876-943397d37ed3&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=oKviV&pd_rd_r=f8284854-8d73-4707-b054-ea57e42af08d&ref_=pd_hp_d_atf_ci_mcx_mr_ca_hp_atf_d
+Handled the exception 1
+/Centrino-Mens-CHICKU-Sneaker-9-3322-22/dp/B08Z48P1XZ/?_encoding=UTF8&pd_rd_w=IYCGt&content-id=amzn1.sym.509965a2-791b-4055-b876-943397d37ed3%3Aamzn1.symc.fc11ad14-99c1-406b-aa77-051d0ba1aade&pf_rd_p=509965a2-791b-4055-b876-943397d37ed3&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=oKviV&pd_rd_r=f8284854-8d73-4707-b054-ea57e42af08d&ref_=pd_hp_d_atf_ci_mcx_mr_ca_hp_atf_d
+Handled the exception 1
+/Bacca-Bucci-Stride-Eclipse-Flat-Sole/dp/B0CVDZ812H/?_encoding=UTF8&pd_rd_w=IYCGt&content-id=amzn1.sym.509965a2-791b-4055-b876-943397d37ed3%3Aamzn1.symc.fc11ad14-99c1-406b-aa77-051d0ba1aade&pf_rd_p=509965a2-791b-4055-b876-943397d37ed3&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=oKviV&pd_rd_r=f8284854-8d73-4707-b054-ea57e42af08d&ref_=pd_hp_d_atf_ci_mcx_mr_ca_hp_atf_d
+Handled the exception 1
+/hz/mobile/mission/?_encoding=UTF8&p=WSAplT0C6WMtxuPzvsFOj9iQZqWH6ooP8nfl3t1QXA6U37w3ds5pP56mxmWWkebow7J53anQT1foGD1DpUmzzAEZ04PAB9C6TUq4rJlYb5YgKbpztsV7n6m3jViin5DuJV8u5ULGt63BEsv57DEvh5zh4slRALlgc8da%2FFNqtcQSdvSfjREoToaAeQebWFGFNmreDuu5QBozGmv8URUH8NDHgoJJ0jlwx5Ma820wGTgaS4xOoE%2BNvJHamBBbtLlmAeWfCmmO%2BZs6tBBl9hJlRmIScA%2BUFdJ4SRj0QlWSJDwBpMhxzc1k%2FCzDAnng%2Bl67jn0TAmjr%2BOjcoUFrwh75B7w0tcM8n3O0Q9vGx%2Fe58%2FfUMbR6he0ScSRarpmYTrAjZsH1Akkbd52%2FbJG38k%2Fn5kMhTfDjeUv2JWGSZleVHHIZvw51UpZUmlGAhK4%2Bjb5Q9erYaPiQcJU%3D&pd_rd_w=IYCGt&content-id=amzn1.sym.509965a2-791b-4055-b876-943397d37ed3%3Aamzn1.symc.fc11ad14-99c1-406b-aa77-051d0ba1aade&pf_rd_p=509965a2-791b-4055-b876-943397d37ed3&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=oKviV&pd_rd_r=f8284854-8d73-4707-b054-ea57e42af08d&ref_=pd_hp_d_atf_ci_mcx_mr_ca_hp_atf_d
+Handled the exception 1
+/gp/buyagain/ref=pd_hp_d_atf_rp_1?ie=UTF8&ats=eyJleHBsaWNpdENhbmRpZGF0ZXMiOiJCMDBWNEw2SkMyIiwiY3VzdG9tZXJJZCI6IkFQQjlUSlkwQk01OEQifQ%3D%3D&pd_rd_w=taxNE&content-id=amzn1.sym.c4a419ec-0102-4c67-84be-bc36cd160d54&pf_rd_p=c4a419ec-0102-4c67-84be-bc36cd160d54&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=oKviV&pd_rd_r=f8284854-8d73-4707-b054-ea57e42af08d
+Handled the exception 1
+/gp/buyagain/ref=pd_hp_d_atf_rp_2?ie=UTF8&ats=eyJleHBsaWNpdENhbmRpZGF0ZXMiOiJCMDlLSEtCMVlOIiwiY3VzdG9tZXJJZCI6IkFQQjlUSlkwQk01OEQifQ%3D%3D&pd_rd_w=taxNE&content-id=amzn1.sym.c4a419ec-0102-4c67-84be-bc36cd160d54&pf_rd_p=c4a419ec-0102-4c67-84be-bc36cd160d54&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=oKviV&pd_rd_r=f8284854-8d73-4707-b054-ea57e42af08d
+Handled the exception 1
+/gp/buyagain/ref=pd_hp_d_atf_rp_3?ie=UTF8&ats=eyJleHBsaWNpdENhbmRpZGF0ZXMiOiJCMDczVFpHOTJSIiwiY3VzdG9tZXJJZCI6IkFQQjlUSlkwQk01OEQifQ%3D%3D&pd_rd_w=taxNE&content-id=amzn1.sym.c4a419ec-0102-4c67-84be-bc36cd160d54&pf_rd_p=c4a419ec-0102-4c67-84be-bc36cd160d54&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=oKviV&pd_rd_r=f8284854-8d73-4707-b054-ea57e42af08d
+Handled the exception 1
+/gp/buyagain/ref=pd_hp_d_atf_rp_4?ie=UTF8&ats=eyJleHBsaWNpdENhbmRpZGF0ZXMiOiJCMDhRU1E4VDc5IiwiY3VzdG9tZXJJZCI6IkFQQjlUSlkwQk01OEQifQ%3D%3D&pd_rd_w=taxNE&content-id=amzn1.sym.c4a419ec-0102-4c67-84be-bc36cd160d54&pf_rd_p=c4a419ec-0102-4c67-84be-bc36cd160d54&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=oKviV&pd_rd_r=f8284854-8d73-4707-b054-ea57e42af08d
+Handled the exception 1
+/gp/buyagain/?ie=UTF8&ref=rp_va&pd_rd_w=taxNE&content-id=amzn1.sym.c4a419ec-0102-4c67-84be-bc36cd160d54&pf_rd_p=c4a419ec-0102-4c67-84be-bc36cd160d54&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=oKviV&pd_rd_r=f8284854-8d73-4707-b054-ea57e42af08d&ref_=pd_hp_d_atf_rp
+Handled the exception 1
+/Reynolds-BALLPEN-Comfortable-Stationery-Students/dp/B0C4Y53XD4/?_encoding=UTF8&pd_rd_w=KQtKO&content-id=amzn1.sym.896d5395-8432-4167-910b-7f29905b1010&pf_rd_p=896d5395-8432-4167-910b-7f29905b1010&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=oKviV&pd_rd_r=f8284854-8d73-4707-b054-ea57e42af08d&ref_=pd_hp_d_atf_dealz_sv
+Handled the exception 1
+/Glory-Sarees-Womens-Georgette-Readymade_Saree106_Pink/dp/B0DJZCNLJ6/?_encoding=UTF8&pd_rd_w=KQtKO&content-id=amzn1.sym.896d5395-8432-4167-910b-7f29905b1010&pf_rd_p=896d5395-8432-4167-910b-7f29905b1010&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=oKviV&pd_rd_r=f8284854-8d73-4707-b054-ea57e42af08d&ref_=pd_hp_d_atf_dealz_sv
+Handled the exception 1
+/Hayman-Picasso-Plated-Triangle-Roller/dp/B07NZC84TQ/?_encoding=UTF8&pd_rd_w=KQtKO&content-id=amzn1.sym.896d5395-8432-4167-910b-7f29905b1010&pf_rd_p=896d5395-8432-4167-910b-7f29905b1010&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=oKviV&pd_rd_r=f8284854-8d73-4707-b054-ea57e42af08d&ref_=pd_hp_d_atf_dealz_sv
+Handled the exception 1
+/JQR-Sports-Running-Walking-Signature-B-WHT-Smoke-Gry-G9/dp/B0CLJGVBMV/?_encoding=UTF8&pd_rd_w=KQtKO&content-id=amzn1.sym.896d5395-8432-4167-910b-7f29905b1010&pf_rd_p=896d5395-8432-4167-910b-7f29905b1010&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=oKviV&pd_rd_r=f8284854-8d73-4707-b054-ea57e42af08d&ref_=pd_hp_d_atf_dealz_sv
+Handled the exception 1
+/events/deals/?_encoding=UTF8&ref_=dealz_sv_see_more&pd_rd_w=KQtKO&content-id=amzn1.sym.896d5395-8432-4167-910b-7f29905b1010&pf_rd_p=896d5395-8432-4167-910b-7f29905b1010&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=oKviV&pd_rd_r=f8284854-8d73-4707-b054-ea57e42af08d
+Handled the exception 1
+/b/ref=vpr_gw_b2c_SoA_bau?ie=UTF8&node=80662860031&pd_rd_w=WzbtV&content-id=amzn1.sym.c9759855-c5fd-4510-93f3-b73268ff6b62&pf_rd_p=c9759855-c5fd-4510-93f3-b73268ff6b62&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=oKviV&pd_rd_r=f8284854-8d73-4707-b054-ea57e42af08d
+Handled the exception 1
+/b/ref=vpr_gw_b2c_SoA_bau?ie=UTF8&node=80662860031&pd_rd_w=WzbtV&content-id=amzn1.sym.c9759855-c5fd-4510-93f3-b73268ff6b62&pf_rd_p=c9759855-c5fd-4510-93f3-b73268ff6b62&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=oKviV&pd_rd_r=f8284854-8d73-4707-b054-ea57e42af08d
+Handled the exception 1
+null
+Handled the exception 1
+/gp/video/ssoredirect/?ie=UTF8&ru=https%3A%2F%2Fapp.primevideo.com%2Fdetail%3Fgti%3Damzn1.dv.gti.95d55513-c547-4f38-bbef-297d29841e57%26ref_%3Ddvm_src_ret_in_xx_s&page-type-id=B0DV4GMBBZ&pd_rd_i=B0DV4GMBBZ&ref_=pd_hp_d_atf_dvm_crs_gat_in_s_d_ac_dw0_t1_asinc_B0DV4GMBBZ&pd_rd_w=yeL3E&content-id=amzn1.sym.ec1f760c-51a8-4bc4-ad36-2fc595b84698&pf_rd_p=ec1f760c-51a8-4bc4-ad36-2fc595b84698&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=oKviV&pd_rd_r=f8284854-8d73-4707-b054-ea57e42af08d
+Handled the exception 1
+/gp/video/ssoredirect/?ie=UTF8&ru=https%3A%2F%2Fapp.primevideo.com%2Fdetail%3Fgti%3Damzn1.dv.gti.95d55513-c547-4f38-bbef-297d29841e57%26ref_%3Ddvm_src_ret_in_xx_s&page-type-id=B0DV4GMBBZ&pd_rd_i=B0DV4GMBBZ&ref_=pd_hp_d_atf_dvm_crs_gat_in_s_d_ac_dw0_t1_asinc_B0DV4GMBBZ&pd_rd_w=yeL3E&content-id=amzn1.sym.ec1f760c-51a8-4bc4-ad36-2fc595b84698&pf_rd_p=ec1f760c-51a8-4bc4-ad36-2fc595b84698&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=oKviV&pd_rd_r=f8284854-8d73-4707-b054-ea57e42af08d
+Handled the exception 1
+/b/?_encoding=UTF8&node=1380442031&pd_rd_w=xbduW&content-id=amzn1.sym.f8e82c51-0408-4554-a158-9be4d776850d&pf_rd_p=f8e82c51-0408-4554-a158-9be4d776850d&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=oKviV&pd_rd_r=f8284854-8d73-4707-b054-ea57e42af08d&ref_=pd_hp_d_atf_unk
+Handled the exception 1
+/b/?_encoding=UTF8&node=1380374031&pd_rd_w=xbduW&content-id=amzn1.sym.f8e82c51-0408-4554-a158-9be4d776850d&pf_rd_p=f8e82c51-0408-4554-a158-9be4d776850d&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=oKviV&pd_rd_r=f8284854-8d73-4707-b054-ea57e42af08d&ref_=pd_hp_d_atf_unk
+Handled the exception 1
+/b/?_encoding=UTF8&node=1380510031&pd_rd_w=xbduW&content-id=amzn1.sym.f8e82c51-0408-4554-a158-9be4d776850d&pf_rd_p=f8e82c51-0408-4554-a158-9be4d776850d&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=oKviV&pd_rd_r=f8284854-8d73-4707-b054-ea57e42af08d&ref_=pd_hp_d_atf_unk
+Handled the exception 1
+/b/?_encoding=UTF8&node=1380485031&pd_rd_w=xbduW&content-id=amzn1.sym.f8e82c51-0408-4554-a158-9be4d776850d&pf_rd_p=f8e82c51-0408-4554-a158-9be4d776850d&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=oKviV&pd_rd_r=f8284854-8d73-4707-b054-ea57e42af08d&ref_=pd_hp_d_atf_unk
+Handled the exception 1
+/b/?_encoding=UTF8&node=12414705031&pd_rd_w=xbduW&content-id=amzn1.sym.f8e82c51-0408-4554-a158-9be4d776850d&pf_rd_p=f8e82c51-0408-4554-a158-9be4d776850d&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=oKviV&pd_rd_r=f8284854-8d73-4707-b054-ea57e42af08d&ref_=pd_hp_d_atf_unk
+Handled the exception 1
+/s/?_encoding=UTF8&i=home-improvement&bbn=61028133031&rh=n%3A61028133031%2Cp_72%3A1318476031%2Cp_36%3A-19900&_encoding=UTF8&qid=1714749719&rnid=3444809031&ref=sr_nr_p_36_3&pd_rd_w=7ErGc&content-id=amzn1.sym.50eae65c-9fc0-4af4-9c34-eebbf34d8c33&pf_rd_p=50eae65c-9fc0-4af4-9c34-eebbf34d8c33&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=oKviV&pd_rd_r=f8284854-8d73-4707-b054-ea57e42af08d&ref_=pd_hp_d_atf_unk
+Handled the exception 1
+/s/?_encoding=UTF8&i=home-improvement&rh=n%3A60834830031%2Cp_36%3A-39900%2Cp_72%3A1318476031&dc=&fs=true&qid=1714744556&rnid=1318475031&ref=sr_nr_p_72_1&ds=v1%3AObcyf9vB3S72PU7NAfGZ%2FbllKjFxF%2BIh8NlJQg5c1A8%22&pd_rd_w=7ErGc&content-id=amzn1.sym.50eae65c-9fc0-4af4-9c34-eebbf34d8c33&pf_rd_p=50eae65c-9fc0-4af4-9c34-eebbf34d8c33&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=oKviV&pd_rd_r=f8284854-8d73-4707-b054-ea57e42af08d&ref_=pd_hp_d_atf_unk
+Handled the exception 1
+/s/?_encoding=UTF8&i=home-improvement&rh=n%3A95174669031%2Cp_36%3A3444810031%2Cp_72%3A1318476031&pd_rd_w=7ErGc&content-id=amzn1.sym.50eae65c-9fc0-4af4-9c34-eebbf34d8c33&pf_rd_p=50eae65c-9fc0-4af4-9c34-eebbf34d8c33&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=oKviV&pd_rd_r=f8284854-8d73-4707-b054-ea57e42af08d&ref_=pd_hp_d_atf_unk
+Handled the exception 1
+/s/?_encoding=UTF8&i=home-improvement&rh=n%3A87322479031%2Cp_36%3A-29900%2Cp_72%3A1318476031&dc=&fs=true&qid=1714750891&rnid=1318475031&ref=sr_nr_p_72_1&ds=v1%3AKT2aFWvve4xsaDjrU17ctKHJFfdbS%2FW1Ex2L5A6belw&pd_rd_w=7ErGc&content-id=amzn1.sym.50eae65c-9fc0-4af4-9c34-eebbf34d8c33&pf_rd_p=50eae65c-9fc0-4af4-9c34-eebbf34d8c33&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=oKviV&pd_rd_r=f8284854-8d73-4707-b054-ea57e42af08d&ref_=pd_hp_d_atf_unk
+Handled the exception 1
+/b/?_encoding=UTF8&node=4286640031&pd_rd_w=7ErGc&content-id=amzn1.sym.50eae65c-9fc0-4af4-9c34-eebbf34d8c33&pf_rd_p=50eae65c-9fc0-4af4-9c34-eebbf34d8c33&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=oKviV&pd_rd_r=f8284854-8d73-4707-b054-ea57e42af08d&ref_=pd_hp_d_atf_unk
+Handled the exception 1
+/s/?_encoding=UTF8&i=electronics&bbn=1388921031&rh=n%3A1388921031%2Cp_n_condition-type%3A8609960031%2Cp_n_deal_type%3A26921226031&pd_rd_w=gshud&content-id=amzn1.sym.1df63344-969f-43ef-9e01-56b32f8a1779&pf_rd_p=1df63344-969f-43ef-9e01-56b32f8a1779&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=oKviV&pd_rd_r=f8284854-8d73-4707-b054-ea57e42af08d&ref_=pd_hp_d_atf_unk
+Handled the exception 1
+/l/1388921031/?_encoding=UTF8&pd_rd_w=gshud&content-id=amzn1.sym.1df63344-969f-43ef-9e01-56b32f8a1779&pf_rd_p=1df63344-969f-43ef-9e01-56b32f8a1779&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=oKviV&pd_rd_r=f8284854-8d73-4707-b054-ea57e42af08d&ref_=pd_hp_d_atf_unk
+Handled the exception 1
+/l/10894223031/?_encoding=UTF8&pd_rd_w=9ifVH&content-id=amzn1.sym.25abdea3-2b81-4e8a-8423-9fe23357b380&pf_rd_p=25abdea3-2b81-4e8a-8423-9fe23357b380&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_LPDEALS
+Handled the exception 1
+/Nebelr-Air-Purifier-Ionizer-Negative/dp/B09BVMC6RD/?_encoding=UTF8&pd_rd_w=9ifVH&content-id=amzn1.sym.25abdea3-2b81-4e8a-8423-9fe23357b380&pf_rd_p=25abdea3-2b81-4e8a-8423-9fe23357b380&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_LPDEALS
+Handled the exception 1
+/Melbify-Leafy-Cocktail-Highball-Transparent/dp/B0D2921HN6/?_encoding=UTF8&pd_rd_w=9ifVH&content-id=amzn1.sym.25abdea3-2b81-4e8a-8423-9fe23357b380&pf_rd_p=25abdea3-2b81-4e8a-8423-9fe23357b380&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_LPDEALS
+Handled the exception 1
+/RBY-Traditional-Chapati-Wooden-Handle/dp/B08LQ51YNF/?_encoding=UTF8&pd_rd_w=9ifVH&content-id=amzn1.sym.25abdea3-2b81-4e8a-8423-9fe23357b380&pf_rd_p=25abdea3-2b81-4e8a-8423-9fe23357b380&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_LPDEALS
+Handled the exception 1
+/daiDokoro-Stainless-Leakproof-Foldable-College/dp/B0CXY9RYBB/?_encoding=UTF8&pd_rd_w=9ifVH&content-id=amzn1.sym.25abdea3-2b81-4e8a-8423-9fe23357b380&pf_rd_p=25abdea3-2b81-4e8a-8423-9fe23357b380&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_LPDEALS
+Handled the exception 1
+/PRD-CARATCAFE-Servings-Hallmark-Certified/dp/B082VY2Q4Z/?_encoding=UTF8&pd_rd_w=9ifVH&content-id=amzn1.sym.25abdea3-2b81-4e8a-8423-9fe23357b380&pf_rd_p=25abdea3-2b81-4e8a-8423-9fe23357b380&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_LPDEALS
+Handled the exception 1
+/Ember-Cookware-Metallic-Induction-Grey/dp/B0DFMF8R46/?_encoding=UTF8&pd_rd_w=9ifVH&content-id=amzn1.sym.25abdea3-2b81-4e8a-8423-9fe23357b380&pf_rd_p=25abdea3-2b81-4e8a-8423-9fe23357b380&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_LPDEALS
+Handled the exception 1
+/Probott-Sipper-Bottle-Stainless-One-Click-Open/dp/B0D2KR1WKX/?_encoding=UTF8&pd_rd_w=9ifVH&content-id=amzn1.sym.25abdea3-2b81-4e8a-8423-9fe23357b380&pf_rd_p=25abdea3-2b81-4e8a-8423-9fe23357b380&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_LPDEALS
+Handled the exception 1
+/YELONA-Stainless-Leakproof-Fern-Green/dp/B0CJ53HRS4/?_encoding=UTF8&pd_rd_w=9ifVH&content-id=amzn1.sym.25abdea3-2b81-4e8a-8423-9fe23357b380&pf_rd_p=25abdea3-2b81-4e8a-8423-9fe23357b380&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_LPDEALS
+Handled the exception 1
+/OH-CHA-Infuser-Strainer-Everyday/dp/B0D8PVSZ15/?_encoding=UTF8&pd_rd_w=9ifVH&content-id=amzn1.sym.25abdea3-2b81-4e8a-8423-9fe23357b380&pf_rd_p=25abdea3-2b81-4e8a-8423-9fe23357b380&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_LPDEALS
+Handled the exception 1
+/VAYA-Stainless-Snack-Leak-Resistant-Container/dp/B0DK9JDW8J/?_encoding=UTF8&pd_rd_w=9ifVH&content-id=amzn1.sym.25abdea3-2b81-4e8a-8423-9fe23357b380&pf_rd_p=25abdea3-2b81-4e8a-8423-9fe23357b380&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_LPDEALS
+Handled the exception 1
+/Machado-Japanese-Pocket-Katana-Kitchen/dp/B0DFRLY792/?_encoding=UTF8&pd_rd_w=9ifVH&content-id=amzn1.sym.25abdea3-2b81-4e8a-8423-9fe23357b380&pf_rd_p=25abdea3-2b81-4e8a-8423-9fe23357b380&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_LPDEALS
+Handled the exception 1
+/Ember-Cookware-Metallic-Stainless-Induction/dp/B0DF7J5TJR/?_encoding=UTF8&pd_rd_w=9ifVH&content-id=amzn1.sym.25abdea3-2b81-4e8a-8423-9fe23357b380&pf_rd_p=25abdea3-2b81-4e8a-8423-9fe23357b380&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_LPDEALS
+Handled the exception 1
+/Probott-Sipper-Bottle-Stainless-One-Click-Open/dp/B0D2KSZWVV/?_encoding=UTF8&pd_rd_w=9ifVH&content-id=amzn1.sym.25abdea3-2b81-4e8a-8423-9fe23357b380&pf_rd_p=25abdea3-2b81-4e8a-8423-9fe23357b380&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_LPDEALS
+Handled the exception 1
+#
+Handled the exception 1
+#
+Handled the exception 1
+/Gala-Wheels-Modular-Cleaning-Multipurpose/dp/B08Z9KB3QM/?_encoding=UTF8&pd_rd_w=kaZy0&content-id=amzn1.sym.89ad11e3-472f-42bd-a3ef-7ac62d638bcf&pf_rd_p=89ad11e3-472f-42bd-a3ef-7ac62d638bcf&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_pd_pss_gwp_d_0
+Handled the exception 1
+/Gala-Twin-Bucket-refills-dispenser/dp/B01BBLUVMS/?_encoding=UTF8&pd_rd_w=kaZy0&content-id=amzn1.sym.89ad11e3-472f-42bd-a3ef-7ac62d638bcf&pf_rd_p=89ad11e3-472f-42bd-a3ef-7ac62d638bcf&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_pd_pss_gwp_d_0
+Handled the exception 1
+/AVZEEGO-Wringer-Cleaning-Mopping-Microfiber/dp/B0DNB5H2YF/?_encoding=UTF8&pd_rd_w=kaZy0&content-id=amzn1.sym.89ad11e3-472f-42bd-a3ef-7ac62d638bcf&pf_rd_p=89ad11e3-472f-42bd-a3ef-7ac62d638bcf&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_pd_pss_gwp_d_0
+Handled the exception 1
+/Gala-removes-bacteria-wheels-Triangular/dp/B08GZVGKNX/?_encoding=UTF8&pd_rd_w=kaZy0&content-id=amzn1.sym.89ad11e3-472f-42bd-a3ef-7ac62d638bcf&pf_rd_p=89ad11e3-472f-42bd-a3ef-7ac62d638bcf&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_pd_pss_gwp_d_0
+Handled the exception 1
+/Gala-wheels-bucket-cleaning-refills/dp/B00L6TMCFU/?_encoding=UTF8&pd_rd_w=kaZy0&content-id=amzn1.sym.89ad11e3-472f-42bd-a3ef-7ac62d638bcf&pf_rd_p=89ad11e3-472f-42bd-a3ef-7ac62d638bcf&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_pd_pss_gwp_d_0
+Handled the exception 1
+/Centrino-Black-Formal-Shoes-9-2244-001/dp/B07T9FBXKT/?_encoding=UTF8&pd_rd_w=kaZy0&content-id=amzn1.sym.89ad11e3-472f-42bd-a3ef-7ac62d638bcf&pf_rd_p=89ad11e3-472f-42bd-a3ef-7ac62d638bcf&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_pd_pss_gwp_d_0
+Handled the exception 1
+/SJEWARE-Pairs-Solid-Ankle-Multicolor/dp/B0BZVZYXV5/?_encoding=UTF8&pd_rd_w=kaZy0&content-id=amzn1.sym.89ad11e3-472f-42bd-a3ef-7ac62d638bcf&pf_rd_p=89ad11e3-472f-42bd-a3ef-7ac62d638bcf&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_pd_pss_gwp_d_0
+Handled the exception 1
+/JQR-STYLE-06-Sneakers-Lifestyle-Everyday/dp/B0CBFP8SGT/?_encoding=UTF8&pd_rd_w=kaZy0&content-id=amzn1.sym.89ad11e3-472f-42bd-a3ef-7ac62d638bcf&pf_rd_p=89ad11e3-472f-42bd-a3ef-7ac62d638bcf&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_pd_pss_gwp_d_0
+Handled the exception 1
+/JQR-Sneakers-Casual-Cushioned-Insole/dp/B0CMD58TMJ/?_encoding=UTF8&pd_rd_w=kaZy0&content-id=amzn1.sym.89ad11e3-472f-42bd-a3ef-7ac62d638bcf&pf_rd_p=89ad11e3-472f-42bd-a3ef-7ac62d638bcf&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_pd_pss_gwp_d_0
+Handled the exception 1
+/Hayman-Plated-Tirupati-Engraved-Pen-188/dp/B09JN3LVCZ/?_encoding=UTF8&pd_rd_w=kaZy0&content-id=amzn1.sym.89ad11e3-472f-42bd-a3ef-7ac62d638bcf&pf_rd_p=89ad11e3-472f-42bd-a3ef-7ac62d638bcf&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_pd_pss_gwp_d_0
+Handled the exception 1
+/Hayman-Gold-Plated-Roller-Ball/dp/B07DQLF7FT/?_encoding=UTF8&pd_rd_w=kaZy0&content-id=amzn1.sym.89ad11e3-472f-42bd-a3ef-7ac62d638bcf&pf_rd_p=89ad11e3-472f-42bd-a3ef-7ac62d638bcf&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_pd_pss_gwp_d_0
+Handled the exception 1
+/Parker-Classic-Gold-Ball-Pen/dp/B00LM4W1N2/?_encoding=UTF8&pd_rd_w=kaZy0&content-id=amzn1.sym.89ad11e3-472f-42bd-a3ef-7ac62d638bcf&pf_rd_p=89ad11e3-472f-42bd-a3ef-7ac62d638bcf&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_pd_pss_gwp_d_0
+Handled the exception 1
+/Parker-Frontier-Gold-Roller-Ball/dp/B07ZNS27SW/?_encoding=UTF8&pd_rd_w=kaZy0&content-id=amzn1.sym.89ad11e3-472f-42bd-a3ef-7ac62d638bcf&pf_rd_p=89ad11e3-472f-42bd-a3ef-7ac62d638bcf&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_pd_pss_gwp_d_0
+Handled the exception 1
+/Hayman-Picasso-Parri-Plated-Roller/dp/B07PB1TFNF/?_encoding=UTF8&pd_rd_w=kaZy0&content-id=amzn1.sym.89ad11e3-472f-42bd-a3ef-7ac62d638bcf&pf_rd_p=89ad11e3-472f-42bd-a3ef-7ac62d638bcf&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_pd_pss_gwp_d_0
+Handled the exception 1
+/Innovative-Gifts-Personalized-Pen-Comfortable/dp/B0DKJ379GH/?_encoding=UTF8&pd_rd_w=kaZy0&content-id=amzn1.sym.89ad11e3-472f-42bd-a3ef-7ac62d638bcf&pf_rd_p=89ad11e3-472f-42bd-a3ef-7ac62d638bcf&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_pd_pss_gwp_d_0
+Handled the exception 1
+/Hayman-Dikawen-Gold-Plated-Roller/dp/B07D67Q13L/?_encoding=UTF8&pd_rd_w=kaZy0&content-id=amzn1.sym.89ad11e3-472f-42bd-a3ef-7ac62d638bcf&pf_rd_p=89ad11e3-472f-42bd-a3ef-7ac62d638bcf&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_pd_pss_gwp_d_0
+Handled the exception 1
+/Hayman-Dikwen-Gold-Plated-Roller/dp/B07ML85QCV/?_encoding=UTF8&pd_rd_w=kaZy0&content-id=amzn1.sym.89ad11e3-472f-42bd-a3ef-7ac62d638bcf&pf_rd_p=89ad11e3-472f-42bd-a3ef-7ac62d638bcf&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_pd_pss_gwp_d_0
+Handled the exception 1
+/Hayman-Jinhao-Gold-Plated-Fountain/dp/B06XGW45LR/?_encoding=UTF8&pd_rd_w=kaZy0&content-id=amzn1.sym.89ad11e3-472f-42bd-a3ef-7ac62d638bcf&pf_rd_p=89ad11e3-472f-42bd-a3ef-7ac62d638bcf&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_pd_pss_gwp_d_0
+Handled the exception 1
+/Hayman-Gold-Plated-Fountain-Pen/dp/B07DB5Q6Y2/?_encoding=UTF8&pd_rd_w=kaZy0&content-id=amzn1.sym.89ad11e3-472f-42bd-a3ef-7ac62d638bcf&pf_rd_p=89ad11e3-472f-42bd-a3ef-7ac62d638bcf&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_pd_pss_gwp_d_0
+Handled the exception 1
+/Parker-Vector-Steel-Roller-Stainless/dp/B00LM4SFWS/?_encoding=UTF8&pd_rd_w=kaZy0&content-id=amzn1.sym.89ad11e3-472f-42bd-a3ef-7ac62d638bcf&pf_rd_p=89ad11e3-472f-42bd-a3ef-7ac62d638bcf&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_pd_pss_gwp_d_0
+Handled the exception 1
+/Parker-Vector-Camouflage-Gift-Set/dp/B0746N6WML/?_encoding=UTF8&pd_rd_w=kaZy0&content-id=amzn1.sym.89ad11e3-472f-42bd-a3ef-7ac62d638bcf&pf_rd_p=89ad11e3-472f-42bd-a3ef-7ac62d638bcf&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_pd_pss_gwp_d_0
+Handled the exception 1
+/Paperkraft-Expressions-Premium-Classic-Occasion/dp/B09GG5YVQV/?_encoding=UTF8&pd_rd_w=kaZy0&content-id=amzn1.sym.89ad11e3-472f-42bd-a3ef-7ac62d638bcf&pf_rd_p=89ad11e3-472f-42bd-a3ef-7ac62d638bcf&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_pd_pss_gwp_d_0
+Handled the exception 1
+/Desidiya-Crystal-Night-Woodern-Decorations/dp/B0D2P9JK11/?_encoding=UTF8&pd_rd_w=kaZy0&content-id=amzn1.sym.89ad11e3-472f-42bd-a3ef-7ac62d638bcf&pf_rd_p=89ad11e3-472f-42bd-a3ef-7ac62d638bcf&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_pd_pss_gwp_d_0
+Handled the exception 1
+/Parker-Vector-Gold-Roller-Luxury/dp/B010BJES16/?_encoding=UTF8&pd_rd_w=kaZy0&content-id=amzn1.sym.89ad11e3-472f-42bd-a3ef-7ac62d638bcf&pf_rd_p=89ad11e3-472f-42bd-a3ef-7ac62d638bcf&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_pd_pss_gwp_d_0
+Handled the exception 1
+/Parker-Frontier-Roller-Holder-Matte/dp/B01LYU1Z7N/?_encoding=UTF8&pd_rd_w=kaZy0&content-id=amzn1.sym.89ad11e3-472f-42bd-a3ef-7ac62d638bcf&pf_rd_p=89ad11e3-472f-42bd-a3ef-7ac62d638bcf&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_pd_pss_gwp_d_0
+Handled the exception 1
+/Parker-Vector-Ball-Stainless-Steel/dp/B00LM4ANUA/?_encoding=UTF8&pd_rd_w=kaZy0&content-id=amzn1.sym.89ad11e3-472f-42bd-a3ef-7ac62d638bcf&pf_rd_p=89ad11e3-472f-42bd-a3ef-7ac62d638bcf&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_pd_pss_gwp_d_0
+Handled the exception 1
+/Parker-Vector-Stainless-Steel-Fountain/dp/B00KYSQDYU/?_encoding=UTF8&pd_rd_w=kaZy0&content-id=amzn1.sym.89ad11e3-472f-42bd-a3ef-7ac62d638bcf&pf_rd_p=89ad11e3-472f-42bd-a3ef-7ac62d638bcf&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_pd_pss_gwp_d_0
+Handled the exception 1
+/Parker-Vector-Fountain-Stainless-Steel/dp/B00LM4SJWO/?_encoding=UTF8&pd_rd_w=kaZy0&content-id=amzn1.sym.89ad11e3-472f-42bd-a3ef-7ac62d638bcf&pf_rd_p=89ad11e3-472f-42bd-a3ef-7ac62d638bcf&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_pd_pss_gwp_d_0
+Handled the exception 1
+/Parker-Vector-Ball-Matte-Black/dp/B00LM4TDXS/?_encoding=UTF8&pd_rd_w=kaZy0&content-id=amzn1.sym.89ad11e3-472f-42bd-a3ef-7ac62d638bcf&pf_rd_p=89ad11e3-472f-42bd-a3ef-7ac62d638bcf&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_pd_pss_gwp_d_0
+Handled the exception 1
+/Parker-Vector-Gold-Roller-Ball/dp/B00LM4UDXW/?_encoding=UTF8&pd_rd_w=kaZy0&content-id=amzn1.sym.89ad11e3-472f-42bd-a3ef-7ac62d638bcf&pf_rd_p=89ad11e3-472f-42bd-a3ef-7ac62d638bcf&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_pd_pss_gwp_d_0
+Handled the exception 1
+#
+Handled the exception 1
+#
+Handled the exception 1
+/Bacca-Ultraforce-Mid-top-Athletic-Inspired-Sneakers/dp/B07QC22N65/?_encoding=UTF8&pd_rd_w=NXlY8&content-id=amzn1.sym.3eb27980-84ee-4cfe-bafb-8634b1863e1c%3Aamzn1.symc.36bd837a-d66d-47d1-8457-ffe9a9f3ddab&pf_rd_p=3eb27980-84ee-4cfe-bafb-8634b1863e1c&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_ci_mcx_mr_hp_atf_m
+Handled the exception 1
+/JQR-Signature-Trendy-Stylish-Sneaker/dp/B0CLJDQ8B2/?_encoding=UTF8&pd_rd_w=NXlY8&content-id=amzn1.sym.3eb27980-84ee-4cfe-bafb-8634b1863e1c%3Aamzn1.symc.36bd837a-d66d-47d1-8457-ffe9a9f3ddab&pf_rd_p=3eb27980-84ee-4cfe-bafb-8634b1863e1c&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_ci_mcx_mr_hp_atf_m
+Handled the exception 1
+/Centrino-Mens-CHICKU-Sneaker-9-3322-22/dp/B08Z48P1XZ/?_encoding=UTF8&pd_rd_w=NXlY8&content-id=amzn1.sym.3eb27980-84ee-4cfe-bafb-8634b1863e1c%3Aamzn1.symc.36bd837a-d66d-47d1-8457-ffe9a9f3ddab&pf_rd_p=3eb27980-84ee-4cfe-bafb-8634b1863e1c&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_ci_mcx_mr_hp_atf_m
+Handled the exception 1
+/OFF-LIMITS-Fantastic-Running-Shoes/dp/B0DZ2S3S7T/?_encoding=UTF8&pd_rd_w=NXlY8&content-id=amzn1.sym.3eb27980-84ee-4cfe-bafb-8634b1863e1c%3Aamzn1.symc.36bd837a-d66d-47d1-8457-ffe9a9f3ddab&pf_rd_p=3eb27980-84ee-4cfe-bafb-8634b1863e1c&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_ci_mcx_mr_hp_atf_m
+Handled the exception 1
+/hz/mobile/mission/?_encoding=UTF8&p=NhHRpbvzH%2FfWXSHZ6QD2sTJG015baGpFcnCnJYqmKlADFHXQjR9S1pCm%2BEJAckzFidgxfxp5PbrEbihaXjMg60Y4sJfmsQbS34Z3Z6SmoCwvtH0vazE8iKuda%2BX57KlX8DB7w4jtpnLXfzvJ3J5pYZXgnu7yY5tj3gQDzxS8f4PP%2FrrRPgZ2ILpNhmvhmxgw8iZhxMt1D3QZW0znS%2FpHiPgRM0A8a7rOjlj8thPyXvneTsqwrKluTne7chgBr40BVzgwv%2BcpWigrxOnDZ7npWYwC3OYKTjzB6oVSxFgLbNf09MI7zfIAA9xCFksbRok0ZdJWnT3jWA9S6UI0xeY5WwjvlU7S54aOY9wASjrquRPtbANbVB6BNw6kUHdqKzoo9ArGwxNnagjLNiJuC%2FlgNO7up7VIZW6ifdwwtut3cA8%3D&pd_rd_w=NXlY8&content-id=amzn1.sym.3eb27980-84ee-4cfe-bafb-8634b1863e1c%3Aamzn1.symc.36bd837a-d66d-47d1-8457-ffe9a9f3ddab&pf_rd_p=3eb27980-84ee-4cfe-bafb-8634b1863e1c&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_ci_mcx_mr_hp_atf_m
+Handled the exception 1
+/Radiant-Microfiber-Cleaning-Effective-Hardwood/dp/B0F4QSM9QG/?_encoding=UTF8&pd_rd_w=o7NLR&content-id=amzn1.sym.3eb27980-84ee-4cfe-bafb-8634b1863e1c%3Aamzn1.symc.36bd837a-d66d-47d1-8457-ffe9a9f3ddab&pf_rd_p=3eb27980-84ee-4cfe-bafb-8634b1863e1c&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_ci_mcx_mr_hp_atf_m
+Handled the exception 1
+/Microfiber-Twist-Mop-Floor-Cleaning/dp/B0DRKCJ5TF/?_encoding=UTF8&pd_rd_w=o7NLR&content-id=amzn1.sym.3eb27980-84ee-4cfe-bafb-8634b1863e1c%3Aamzn1.symc.36bd837a-d66d-47d1-8457-ffe9a9f3ddab&pf_rd_p=3eb27980-84ee-4cfe-bafb-8634b1863e1c&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_ci_mcx_mr_hp_atf_m
+Handled the exception 1
+/Cleaning-Without-Removable-Microfiber-Extendable/dp/B0F63Q55WR/?_encoding=UTF8&pd_rd_w=o7NLR&content-id=amzn1.sym.3eb27980-84ee-4cfe-bafb-8634b1863e1c%3Aamzn1.symc.36bd837a-d66d-47d1-8457-ffe9a9f3ddab&pf_rd_p=3eb27980-84ee-4cfe-bafb-8634b1863e1c&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_ci_mcx_mr_hp_atf_m
+Handled the exception 1
+/HET-ENTERPRISE-Multi-Purpose-Microfiber-Telescopic/dp/B0CFL7DC64/?_encoding=UTF8&pd_rd_w=o7NLR&content-id=amzn1.sym.3eb27980-84ee-4cfe-bafb-8634b1863e1c%3Aamzn1.symc.36bd837a-d66d-47d1-8457-ffe9a9f3ddab&pf_rd_p=3eb27980-84ee-4cfe-bafb-8634b1863e1c&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_ci_mcx_mr_hp_atf_m
+Handled the exception 1
+/Radiant-Microfiber-Cleaning-Effective-Hardwood/dp/B0F4QSM9QG/?_encoding=UTF8&pd_rd_w=o7NLR&content-id=amzn1.sym.3eb27980-84ee-4cfe-bafb-8634b1863e1c%3Aamzn1.symc.36bd837a-d66d-47d1-8457-ffe9a9f3ddab&pf_rd_p=3eb27980-84ee-4cfe-bafb-8634b1863e1c&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_ci_mcx_mr_hp_atf_m
+Handled the exception 1
+/Microfiber-Twist-Mop-Floor-Cleaning/dp/B0DRKCJ5TF/?_encoding=UTF8&pd_rd_w=o7NLR&content-id=amzn1.sym.3eb27980-84ee-4cfe-bafb-8634b1863e1c%3Aamzn1.symc.36bd837a-d66d-47d1-8457-ffe9a9f3ddab&pf_rd_p=3eb27980-84ee-4cfe-bafb-8634b1863e1c&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_ci_mcx_mr_hp_atf_m
+Handled the exception 1
+/Cleaning-Without-Removable-Microfiber-Extendable/dp/B0F63Q55WR/?_encoding=UTF8&pd_rd_w=o7NLR&content-id=amzn1.sym.3eb27980-84ee-4cfe-bafb-8634b1863e1c%3Aamzn1.symc.36bd837a-d66d-47d1-8457-ffe9a9f3ddab&pf_rd_p=3eb27980-84ee-4cfe-bafb-8634b1863e1c&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_ci_mcx_mr_hp_atf_m
+Handled the exception 1
+/HET-ENTERPRISE-Multi-Purpose-Microfiber-Telescopic/dp/B0CFL7DC64/?_encoding=UTF8&pd_rd_w=o7NLR&content-id=amzn1.sym.3eb27980-84ee-4cfe-bafb-8634b1863e1c%3Aamzn1.symc.36bd837a-d66d-47d1-8457-ffe9a9f3ddab&pf_rd_p=3eb27980-84ee-4cfe-bafb-8634b1863e1c&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_ci_mcx_mr_hp_atf_m
+Handled the exception 1
+/hz/mobile/mission/?_encoding=UTF8&p=pQmzNnQ5l3g2vyN1f%2BSSRjl%2Flr0QaokkxzTQHpO27t5Vr6fRrt5kJJpeS0w%2BQThHEpA7b24ThMbfoHnEBugNDWyqhyibrlOmF5c5%2BmSot8jkgQjPF6Pl9o7XSI1F%2B5KLCQPT4QGD0h0YGsD1yAf4TTNwmzOWy2HsMJWGfP0%2B%2BmiT6TKvkjzHxefwsBLgwFSG9T1FClcFmkIjtUQ8h%2B0lP8hyqmI8WlN23V3Ko5rHK4QQXl1LdYb4vLKAe0yqoQZ%2BA7sHpFcbYEfuNIuwsWFsry740uh9pFRqu0HpVav4EWybkU9ETm9MsakBd8dMizWa0Z%2FH%2BHwlLdgYYGrf8Sy5ct%2FwV2YVt2v%2FyX8ZSxfTtsIodPHzffPMS%2FJai8WJ98ySFrF7iQZEbDGAnOJzX80KPqjxQcxv5BcEmzEktvQlsDL%2FqMg7wSopEVST6jphtcML&pd_rd_w=o7NLR&content-id=amzn1.sym.3eb27980-84ee-4cfe-bafb-8634b1863e1c%3Aamzn1.symc.36bd837a-d66d-47d1-8457-ffe9a9f3ddab&pf_rd_p=3eb27980-84ee-4cfe-bafb-8634b1863e1c&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_ci_mcx_mr_hp_atf_m
+Handled the exception 1
+/Chakaachak-Bucket-Cleaning-Wheels-Mopping/dp/B0C81SY17M/?_encoding=UTF8&pd_rd_w=QdUwg&content-id=amzn1.sym.3eb27980-84ee-4cfe-bafb-8634b1863e1c%3Aamzn1.symc.36bd837a-d66d-47d1-8457-ffe9a9f3ddab&pf_rd_p=3eb27980-84ee-4cfe-bafb-8634b1863e1c&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_ci_mcx_mr_hp_atf_m
+Handled the exception 1
+/Presto-Wringer-Auto-fold-Handle-Refills/dp/B0B6H7M62D/?_encoding=UTF8&pd_rd_w=QdUwg&content-id=amzn1.sym.3eb27980-84ee-4cfe-bafb-8634b1863e1c%3Aamzn1.symc.36bd837a-d66d-47d1-8457-ffe9a9f3ddab&pf_rd_p=3eb27980-84ee-4cfe-bafb-8634b1863e1c&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_ci_mcx_mr_hp_atf_m
+Handled the exception 1
+/Primeway-Bucket-Rotating-Cleaning-Microfiber/dp/B01FAXIEYU/?_encoding=UTF8&pd_rd_w=QdUwg&content-id=amzn1.sym.3eb27980-84ee-4cfe-bafb-8634b1863e1c%3Aamzn1.symc.36bd837a-d66d-47d1-8457-ffe9a9f3ddab&pf_rd_p=3eb27980-84ee-4cfe-bafb-8634b1863e1c&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_ci_mcx_mr_hp_atf_m
+Handled the exception 1
+/Gala-Quick-Wheels-Bucket-Refills/dp/B06Y151YM4/?_encoding=UTF8&pd_rd_w=QdUwg&content-id=amzn1.sym.3eb27980-84ee-4cfe-bafb-8634b1863e1c%3Aamzn1.symc.36bd837a-d66d-47d1-8457-ffe9a9f3ddab&pf_rd_p=3eb27980-84ee-4cfe-bafb-8634b1863e1c&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_ci_mcx_mr_hp_atf_m
+Handled the exception 1
+/Chakaachak-Bucket-Cleaning-Wheels-Mopping/dp/B0C81SY17M/?_encoding=UTF8&pd_rd_w=QdUwg&content-id=amzn1.sym.3eb27980-84ee-4cfe-bafb-8634b1863e1c%3Aamzn1.symc.36bd837a-d66d-47d1-8457-ffe9a9f3ddab&pf_rd_p=3eb27980-84ee-4cfe-bafb-8634b1863e1c&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_ci_mcx_mr_hp_atf_m
+Handled the exception 1
+/Presto-Wringer-Auto-fold-Handle-Refills/dp/B0B6H7M62D/?_encoding=UTF8&pd_rd_w=QdUwg&content-id=amzn1.sym.3eb27980-84ee-4cfe-bafb-8634b1863e1c%3Aamzn1.symc.36bd837a-d66d-47d1-8457-ffe9a9f3ddab&pf_rd_p=3eb27980-84ee-4cfe-bafb-8634b1863e1c&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_ci_mcx_mr_hp_atf_m
+Handled the exception 1
+/Primeway-Bucket-Rotating-Cleaning-Microfiber/dp/B01FAXIEYU/?_encoding=UTF8&pd_rd_w=QdUwg&content-id=amzn1.sym.3eb27980-84ee-4cfe-bafb-8634b1863e1c%3Aamzn1.symc.36bd837a-d66d-47d1-8457-ffe9a9f3ddab&pf_rd_p=3eb27980-84ee-4cfe-bafb-8634b1863e1c&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_ci_mcx_mr_hp_atf_m
+Handled the exception 1
+/Gala-Quick-Wheels-Bucket-Refills/dp/B06Y151YM4/?_encoding=UTF8&pd_rd_w=QdUwg&content-id=amzn1.sym.3eb27980-84ee-4cfe-bafb-8634b1863e1c%3Aamzn1.symc.36bd837a-d66d-47d1-8457-ffe9a9f3ddab&pf_rd_p=3eb27980-84ee-4cfe-bafb-8634b1863e1c&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_ci_mcx_mr_hp_atf_m
+Handled the exception 1
+/hz/mobile/mission/?_encoding=UTF8&p=SZGXABVsCciGyftfpuRh7kWVYm7qJO09O5a9GpBMcH%2B3MQmWG%2Fle5wnIDbaibU2AcHU3WMMWaiEats%2Bjtxdqve4jXE5APQxwMf4I2CbhfmuUGyBcrOVDAiSV1EJK18%2Bj0DywnJqT6vADZpg%2ByVFFhzNKDDQ7jKpoGnm%2B1FZGwTv65CWxEUUjbCW0p%2BWbxx8Tgut43vR87zbAJY5Ekc6ek2iIcmocJU8NYt1kyjCMQ6zmvbRlnpCyG1r87wZrQQzvmfhF%2FV2zBp%2FtY%2Bhz%2B4ForYpWDkJbZbHn%2BazQ6JaHyD4Y47IpA0i3VQ%2BeGyoDkPNBfrgZm9sldew1cF0NeuKN0WevmJyE2gblINAsvCo2%2FOGWg6G54sj0Y%2F16mR8PTFih4ndouIf2w5Ny0dDSLNR0PV46bi%2BzHRJmz9EhxGF%2FjZZ4PPmFZBFmJw%3D%3D&pd_rd_w=QdUwg&content-id=amzn1.sym.3eb27980-84ee-4cfe-bafb-8634b1863e1c%3Aamzn1.symc.36bd837a-d66d-47d1-8457-ffe9a9f3ddab&pf_rd_p=3eb27980-84ee-4cfe-bafb-8634b1863e1c&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_ci_mcx_mr_hp_atf_m
+Handled the exception 1
+/Gala-Dust-Broom-Extendable-Handle/dp/B081QHNGSV/?_encoding=UTF8&pd_rd_w=PAK4U&content-id=amzn1.sym.4bf0b775-02d6-45e8-9fb8-dae65f2e365b&pf_rd_p=4bf0b775-02d6-45e8-9fb8-dae65f2e365b&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_cr_cartx
+Handled the exception 1
+/Harpic-Powerplus-Toilet-Cleaner-Original/dp/B00NWFVVG2/?_encoding=UTF8&pd_rd_w=PAK4U&content-id=amzn1.sym.4bf0b775-02d6-45e8-9fb8-dae65f2e365b&pf_rd_p=4bf0b775-02d6-45e8-9fb8-dae65f2e365b&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_cr_cartx
+Handled the exception 1
+/Jialto-Adhesive-Hooks-Transparent-Improvement/dp/B08X2R1HM5/?_encoding=UTF8&pd_rd_w=PAK4U&content-id=amzn1.sym.4bf0b775-02d6-45e8-9fb8-dae65f2e365b&pf_rd_p=4bf0b775-02d6-45e8-9fb8-dae65f2e365b&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_cr_cartx
+Handled the exception 1
+/VOLTURI-Microfiber-Extendable-Cleaning-Expandable/dp/B0DMZWL16Z/?_encoding=UTF8&pd_rd_w=PAK4U&content-id=amzn1.sym.4bf0b775-02d6-45e8-9fb8-dae65f2e365b&pf_rd_p=4bf0b775-02d6-45e8-9fb8-dae65f2e365b&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_cr_cartx
+Handled the exception 1
+/Gala-Dust-Broom-Extendable-Handle/dp/B081QHNGSV/?_encoding=UTF8&pd_rd_w=PAK4U&content-id=amzn1.sym.4bf0b775-02d6-45e8-9fb8-dae65f2e365b&pf_rd_p=4bf0b775-02d6-45e8-9fb8-dae65f2e365b&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_cr_cartx
+Handled the exception 1
+/Harpic-Powerplus-Toilet-Cleaner-Original/dp/B00NWFVVG2/?_encoding=UTF8&pd_rd_w=PAK4U&content-id=amzn1.sym.4bf0b775-02d6-45e8-9fb8-dae65f2e365b&pf_rd_p=4bf0b775-02d6-45e8-9fb8-dae65f2e365b&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_cr_cartx
+Handled the exception 1
+/Jialto-Adhesive-Hooks-Transparent-Improvement/dp/B08X2R1HM5/?_encoding=UTF8&pd_rd_w=PAK4U&content-id=amzn1.sym.4bf0b775-02d6-45e8-9fb8-dae65f2e365b&pf_rd_p=4bf0b775-02d6-45e8-9fb8-dae65f2e365b&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_cr_cartx
+Handled the exception 1
+/VOLTURI-Microfiber-Extendable-Cleaning-Expandable/dp/B0DMZWL16Z/?_encoding=UTF8&pd_rd_w=PAK4U&content-id=amzn1.sym.4bf0b775-02d6-45e8-9fb8-dae65f2e365b&pf_rd_p=4bf0b775-02d6-45e8-9fb8-dae65f2e365b&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_cr_cartx
+Handled the exception 1
+/ASIAN-MEXICO-11-Synthetic-Lightweight-Comfortable/dp/B0DBD4JYKK/?_encoding=UTF8&pd_rd_w=vg9wW&content-id=amzn1.sym.4bf0b775-02d6-45e8-9fb8-dae65f2e365b&pf_rd_p=4bf0b775-02d6-45e8-9fb8-dae65f2e365b&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_cr_cartx
+Handled the exception 1
+/SJeware-Women-Solid-Length-SJW-2013/dp/B0C3DH4XPJ/?_encoding=UTF8&pd_rd_w=vg9wW&content-id=amzn1.sym.4bf0b775-02d6-45e8-9fb8-dae65f2e365b&pf_rd_p=4bf0b775-02d6-45e8-9fb8-dae65f2e365b&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_cr_cartx
+Handled the exception 1
+/Fitness-Mantra%C2%AE-Sports-Breathable-Multicolor/dp/B0CTQ4RSMB/?_encoding=UTF8&pd_rd_w=vg9wW&content-id=amzn1.sym.4bf0b775-02d6-45e8-9fb8-dae65f2e365b&pf_rd_p=4bf0b775-02d6-45e8-9fb8-dae65f2e365b&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_cr_cartx
+Handled the exception 1
+/Bacca-Ultraforce-Mid-top-Athletic-Inspired-Sneakers/dp/B07QC2HK76/?_encoding=UTF8&pd_rd_w=vg9wW&content-id=amzn1.sym.4bf0b775-02d6-45e8-9fb8-dae65f2e365b&pf_rd_p=4bf0b775-02d6-45e8-9fb8-dae65f2e365b&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_cr_cartx
+Handled the exception 1
+/ASIAN-Mexico-02-White-Casual-Sneaker/dp/B0D3C744HH/?_encoding=UTF8&pd_rd_w=vg9wW&content-id=amzn1.sym.4bf0b775-02d6-45e8-9fb8-dae65f2e365b&pf_rd_p=4bf0b775-02d6-45e8-9fb8-dae65f2e365b&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_cr_cartx
+Handled the exception 1
+/Campus-Mens-OG-41-Sneakers-Off/dp/B0DYXRRVDL/?_encoding=UTF8&pd_rd_w=vg9wW&content-id=amzn1.sym.4bf0b775-02d6-45e8-9fb8-dae65f2e365b&pf_rd_p=4bf0b775-02d6-45e8-9fb8-dae65f2e365b&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_cr_cartx
+Handled the exception 1
+/Lymio-Track-Pant-TP-32-33-Grey/dp/B0D91W9X9N/?_encoding=UTF8&pd_rd_w=vg9wW&content-id=amzn1.sym.4bf0b775-02d6-45e8-9fb8-dae65f2e365b&pf_rd_p=4bf0b775-02d6-45e8-9fb8-dae65f2e365b&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_cr_cartx
+Handled the exception 1
+/Fitness-Mantra%C2%AE-Athletic-Special-Activewear/dp/B0CMXPBJY8/?_encoding=UTF8&pd_rd_w=vg9wW&content-id=amzn1.sym.4bf0b775-02d6-45e8-9fb8-dae65f2e365b&pf_rd_p=4bf0b775-02d6-45e8-9fb8-dae65f2e365b&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_cr_cartx
+Handled the exception 1
+/ASIAN-TARZAN-04-Sneaker-Synthetic-Lightweight/dp/B0C5M3QJR8/?_encoding=UTF8&pd_rd_w=vg9wW&content-id=amzn1.sym.4bf0b775-02d6-45e8-9fb8-dae65f2e365b&pf_rd_p=4bf0b775-02d6-45e8-9fb8-dae65f2e365b&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_cr_cartx
+Handled the exception 1
+/QATHAAL-Tempered-Traditional-Handmade-Billhook/dp/B0DCZP52YB/?_encoding=UTF8&pd_rd_w=vg9wW&content-id=amzn1.sym.4bf0b775-02d6-45e8-9fb8-dae65f2e365b&pf_rd_p=4bf0b775-02d6-45e8-9fb8-dae65f2e365b&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_cr_cartx
+Handled the exception 1
+/Lymio-Jeans-Pants-Denim-Jeans-06-07-08/dp/B0D16YLQ61/?_encoding=UTF8&pd_rd_w=vg9wW&content-id=amzn1.sym.4bf0b775-02d6-45e8-9fb8-dae65f2e365b&pf_rd_p=4bf0b775-02d6-45e8-9fb8-dae65f2e365b&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_cr_cartx
+Handled the exception 1
+/GRECIILOOKS-Regular-Trouser-Sports-Stylish/dp/B0DRS7R9DS/?_encoding=UTF8&pd_rd_w=vg9wW&content-id=amzn1.sym.4bf0b775-02d6-45e8-9fb8-dae65f2e365b&pf_rd_p=4bf0b775-02d6-45e8-9fb8-dae65f2e365b&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_cr_cartx
+Handled the exception 1
+/Titan-Multi-Colour-Stainless-Watch-NL1639SM01-NN1639SM01/dp/B00ISNVM0S/?_encoding=UTF8&pd_rd_w=vg9wW&content-id=amzn1.sym.4bf0b775-02d6-45e8-9fb8-dae65f2e365b&pf_rd_p=4bf0b775-02d6-45e8-9fb8-dae65f2e365b&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_cr_cartx
+Handled the exception 1
+/Lymio-Cargo-Cotton-Cargos-Cargo-38-41/dp/B0D91X9TX4/?_encoding=UTF8&pd_rd_w=vg9wW&content-id=amzn1.sym.4bf0b775-02d6-45e8-9fb8-dae65f2e365b&pf_rd_p=4bf0b775-02d6-45e8-9fb8-dae65f2e365b&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_cr_cartx
+Handled the exception 1
+/Centrino-Mens-3323-Sneakers-9-3323-02/dp/B07QTBB7SD/?_encoding=UTF8&pd_rd_w=vg9wW&content-id=amzn1.sym.4bf0b775-02d6-45e8-9fb8-dae65f2e365b&pf_rd_p=4bf0b775-02d6-45e8-9fb8-dae65f2e365b&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_cr_cartx
+Handled the exception 1
+/Centrino-Mens-6580-Sneakers_9-6580-6/dp/B0CJQ9RB7T/?_encoding=UTF8&pd_rd_w=vg9wW&content-id=amzn1.sym.4bf0b775-02d6-45e8-9fb8-dae65f2e365b&pf_rd_p=4bf0b775-02d6-45e8-9fb8-dae65f2e365b&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_cr_cartx
+Handled the exception 1
+/BATA-Laceup-Casual-Shoes-8214179/dp/B09WYDRY36/?_encoding=UTF8&pd_rd_w=vg9wW&content-id=amzn1.sym.4bf0b775-02d6-45e8-9fb8-dae65f2e365b&pf_rd_p=4bf0b775-02d6-45e8-9fb8-dae65f2e365b&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_cr_cartx
+Handled the exception 1
+/Sparx-Mens-Black-Sneaker-SC0671G/dp/B09FGF6ML7/?_encoding=UTF8&pd_rd_w=vg9wW&content-id=amzn1.sym.4bf0b775-02d6-45e8-9fb8-dae65f2e365b&pf_rd_p=4bf0b775-02d6-45e8-9fb8-dae65f2e365b&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_cr_cartx
+Handled the exception 1
+#
+Handled the exception 1
+#
+Handled the exception 1
+null
+Handled the exception 1
+/Eco-Alpine-Degree-Steel-Spinner/dp/B01M2A3LEE/?_encoding=UTF8&pd_rd_w=zhEfM&content-id=amzn1.sym.e2d60bdd-bce4-4a66-b3b8-54667a7ad49f&pf_rd_p=e2d60bdd-bce4-4a66-b3b8-54667a7ad49f&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_a2i_ohl_gw_cml
+Handled the exception 1
+/Degree-Grade-Stainless-Bucket-Refill/dp/B08GY2KSQ5/?_encoding=UTF8&pd_rd_w=zhEfM&content-id=amzn1.sym.e2d60bdd-bce4-4a66-b3b8-54667a7ad49f&pf_rd_p=e2d60bdd-bce4-4a66-b3b8-54667a7ad49f&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_a2i_ohl_gw_cml
+Handled the exception 1
+/Spotzero-Milton-Cleaning-Flexible-Microfiber/dp/B0756PB2CZ/?_encoding=UTF8&pd_rd_w=zhEfM&content-id=amzn1.sym.e2d60bdd-bce4-4a66-b3b8-54667a7ad49f&pf_rd_p=e2d60bdd-bce4-4a66-b3b8-54667a7ad49f&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_a2i_ohl_gw_cml
+Handled the exception 1
+/Eco-Alpine-Steel-Spinner-Yellow/dp/B01MDRW1EH/?_encoding=UTF8&pd_rd_w=zhEfM&content-id=amzn1.sym.e2d60bdd-bce4-4a66-b3b8-54667a7ad49f&pf_rd_p=e2d60bdd-bce4-4a66-b3b8-54667a7ad49f&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_a2i_ohl_gw_cml
+Handled the exception 1
+/b/?_encoding=UTF8&ie=UTF8&node=88592185031&pd_rd_w=zhEfM&content-id=amzn1.sym.e2d60bdd-bce4-4a66-b3b8-54667a7ad49f&pf_rd_p=e2d60bdd-bce4-4a66-b3b8-54667a7ad49f&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_a2i_ohl_gw_cml
+Handled the exception 1
+/s/ref=pcqcnotebook/?_encoding=UTF8&rh=n%3A2454172031%2Cp_85%3A10440599031&hidden-keywords=Notebook%20%7C%20diary&pd_rd_w=PfElm&content-id=amzn1.sym.1dca1e76-2285-4938-bcb8-17af90f78072&pf_rd_p=1dca1e76-2285-4938-bcb8-17af90f78072&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_unk
+Handled the exception 1
+/s/ref=pcqcschool/?_encoding=UTF8&i=stripbooks&rh=n%3A4149807031%2Cp_85%3A10440599031%2Cp_n_availability%3A1318485031&pd_rd_w=PfElm&content-id=amzn1.sym.1dca1e76-2285-4938-bcb8-17af90f78072&pf_rd_p=1dca1e76-2285-4938-bcb8-17af90f78072&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_unk
+Handled the exception 1
+/s/ref=pcqcsbundle/?_encoding=UTF8&i=stripbooks&rh=n%3A4149807031%2Cp_85%3A10440599031%2Cp_n_binding_browse-bin%3A9839915031&pd_rd_w=PfElm&content-id=amzn1.sym.1dca1e76-2285-4938-bcb8-17af90f78072&pf_rd_p=1dca1e76-2285-4938-bcb8-17af90f78072&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_unk
+Handled the exception 1
+/s/ref=pcqcspens/?_encoding=UTF8&k=Pen%2C%20pencil&hidden-keywords=Pen%20%7C%20Pencils&pd_rd_w=PfElm&content-id=amzn1.sym.1dca1e76-2285-4938-bcb8-17af90f78072&pf_rd_p=1dca1e76-2285-4938-bcb8-17af90f78072&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_unk
+Handled the exception 1
+/b/?_encoding=UTF8&ie=UTF8&node=976389031&pd_rd_w=PfElm&content-id=amzn1.sym.1dca1e76-2285-4938-bcb8-17af90f78072&pf_rd_p=1dca1e76-2285-4938-bcb8-17af90f78072&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_unk
+Handled the exception 1
+/eightone-Floral-Cotton-Sleeve-Flowers/dp/B0DVZ9LHTT/?_encoding=UTF8&pd_rd_w=lMiq0&content-id=amzn1.sym.dda7c2a4-e1bd-4bf8-b395-2e88b2ca014d&pf_rd_p=dda7c2a4-e1bd-4bf8-b395-2e88b2ca014d&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_NAMBOTTLES
+Handled the exception 1
+/Floral-Summer-Sleeve-Porcelain-Regular/dp/B0DXL8D86V/?_encoding=UTF8&pd_rd_w=lMiq0&content-id=amzn1.sym.dda7c2a4-e1bd-4bf8-b395-2e88b2ca014d&pf_rd_p=dda7c2a4-e1bd-4bf8-b395-2e88b2ca014d&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_NAMBOTTLES
+Handled the exception 1
+/Narsingha-Dreams-Polycotton-Sleeveless-Vest_Black/dp/B0DSG48DJN/?_encoding=UTF8&pd_rd_w=lMiq0&content-id=amzn1.sym.dda7c2a4-e1bd-4bf8-b395-2e88b2ca014d&pf_rd_p=dda7c2a4-e1bd-4bf8-b395-2e88b2ca014d&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_NAMBOTTLES
+Handled the exception 1
+/PINKHUB-Elegant-Womens-Chiffon-Business/dp/B0CG9HXZS1/?_encoding=UTF8&pd_rd_w=lMiq0&content-id=amzn1.sym.dda7c2a4-e1bd-4bf8-b395-2e88b2ca014d&pf_rd_p=dda7c2a4-e1bd-4bf8-b395-2e88b2ca014d&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_NAMBOTTLES
+Handled the exception 1
+/CALVIN-KLEIN-DEFY-SAMPLE-10ML/dp/B0D7ZSSGN1/?_encoding=UTF8&pd_rd_w=vjSNt&content-id=amzn1.sym.3eb27980-84ee-4cfe-bafb-8634b1863e1c%3Aamzn1.symc.36bd837a-d66d-47d1-8457-ffe9a9f3ddab&pf_rd_p=3eb27980-84ee-4cfe-bafb-8634b1863e1c&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_ci_mcx_mr_hp_atf_m
+Handled the exception 1
+/Scotch-Brite-Non-Woven-Scrub-Pad-Blue/dp/B07H7S4NMP/?_encoding=UTF8&pd_rd_w=vjSNt&content-id=amzn1.sym.3eb27980-84ee-4cfe-bafb-8634b1863e1c%3Aamzn1.symc.36bd837a-d66d-47d1-8457-ffe9a9f3ddab&pf_rd_p=3eb27980-84ee-4cfe-bafb-8634b1863e1c&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_ci_mcx_mr_hp_atf_m
+Handled the exception 1
+/Matrix-Opti-Care-Professional-Conditioner-Parabens/dp/B0DH8GCSSY/?_encoding=UTF8&pd_rd_w=vjSNt&content-id=amzn1.sym.3eb27980-84ee-4cfe-bafb-8634b1863e1c%3Aamzn1.symc.36bd837a-d66d-47d1-8457-ffe9a9f3ddab&pf_rd_p=3eb27980-84ee-4cfe-bafb-8634b1863e1c&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_ci_mcx_mr_hp_atf_m
+Handled the exception 1
+/Test-ASIN-Kitchen-Standard-Product/dp/B07SKBGZL4/?_encoding=UTF8&pd_rd_w=vjSNt&content-id=amzn1.sym.3eb27980-84ee-4cfe-bafb-8634b1863e1c%3Aamzn1.symc.36bd837a-d66d-47d1-8457-ffe9a9f3ddab&pf_rd_p=3eb27980-84ee-4cfe-bafb-8634b1863e1c&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_ci_mcx_mr_hp_atf_m
+Handled the exception 1
+/hz/mobile/mission/?_encoding=UTF8&p=56jHG%2BFh0dzQGnT4%2BKV7LswMD6q77f5m7bNcdiMYhRjd0c8JruSd0bhGuv3mPKoj53eurHqkRn1qViuD205SVE6FriFBFU%2FHpcaH6vIO7OsDFuGcibXwyOsVDAYt%2F6Oet4tznS2RH%2BGgoNnYcTkAEYOWZ2z9KYt7jqDf5ebWnp94n0i1GPYudNDYFxxigHQPbUoGWJkFIXVvX2hy2Ut49J980U0dagbaLPzPB6Oab0PixWbuIl9bCxVQHF6fplKre17OgVwaFV5iysCMfFiVLA2nnCgqSCaeUZPE54yNlSp80VG%2B93Bd5mS3iWaBpZoBlwlIbeY22btoSn%2F07YBdfUIRk3OF6jqcoOsthrYFqAID6IcRGxywgd8bPqZ4xZd%2Befocyrt5Uur%2F%2FV5savjgwVREedhrT%2FcKgYCVPOToLrc%3D&pd_rd_w=vjSNt&content-id=amzn1.sym.3eb27980-84ee-4cfe-bafb-8634b1863e1c%3Aamzn1.symc.36bd837a-d66d-47d1-8457-ffe9a9f3ddab&pf_rd_p=3eb27980-84ee-4cfe-bafb-8634b1863e1c&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_ci_mcx_mr_hp_atf_m
+Handled the exception 1
+/b/?_encoding=UTF8&node=28253258031&pd_rd_w=W9az5&content-id=amzn1.sym.a1c248de-072b-4edb-8a7d-5f5b7e8b8769&pf_rd_p=a1c248de-072b-4edb-8a7d-5f5b7e8b8769&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_ls_gwc_pc_en2_
+Handled the exception 1
+/Electric-Rechargable-Portable-Blender-25-X211-MLT/dp/B0F21NZ9NN/?_encoding=UTF8&pd_rd_w=W9az5&content-id=amzn1.sym.a1c248de-072b-4edb-8a7d-5f5b7e8b8769&pf_rd_p=a1c248de-072b-4edb-8a7d-5f5b7e8b8769&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_ls_gwc_pc_en2_
+Handled the exception 1
+/Compatible-HL7575-HL7576-Chutany-Jar/dp/B0D841GJZB/?_encoding=UTF8&pd_rd_w=W9az5&content-id=amzn1.sym.a1c248de-072b-4edb-8a7d-5f5b7e8b8769&pf_rd_p=a1c248de-072b-4edb-8a7d-5f5b7e8b8769&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_ls_gwc_pc_en2_
+Handled the exception 1
+/SIMESTICH-Chopper-Vegetable-14-Veggie/dp/B0DS5VSJ9R/?_encoding=UTF8&pd_rd_w=W9az5&content-id=amzn1.sym.a1c248de-072b-4edb-8a7d-5f5b7e8b8769&pf_rd_p=a1c248de-072b-4edb-8a7d-5f5b7e8b8769&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_ls_gwc_pc_en2_
+Handled the exception 1
+/DDN_R_-Portable-Plastic-Traveling-Rechargeable/dp/B0DFPQX9GF/?_encoding=UTF8&pd_rd_w=W9az5&content-id=amzn1.sym.a1c248de-072b-4edb-8a7d-5f5b7e8b8769&pf_rd_p=a1c248de-072b-4edb-8a7d-5f5b7e8b8769&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_ls_gwc_pc_en2_
+Handled the exception 1
+/CartaDen-Wooden-Serving-Modern-Breakfast/dp/B0BFBV4JKK/?_encoding=UTF8&pd_rd_w=W9az5&content-id=amzn1.sym.a1c248de-072b-4edb-8a7d-5f5b7e8b8769&pf_rd_p=a1c248de-072b-4edb-8a7d-5f5b7e8b8769&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_ls_gwc_pc_en2_
+Handled the exception 1
+/ASTIKAYA-Manual-Papad-Puri-Stainless-Machine/dp/B0DRVTD8LH/?_encoding=UTF8&pd_rd_w=W9az5&content-id=amzn1.sym.a1c248de-072b-4edb-8a7d-5f5b7e8b8769&pf_rd_p=a1c248de-072b-4edb-8a7d-5f5b7e8b8769&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_ls_gwc_pc_en2_
+Handled the exception 1
+/DDN_R_-Mini-Waffle-Maker-Breakfast/dp/B0DRJKZCDG/?_encoding=UTF8&pd_rd_w=W9az5&content-id=amzn1.sym.a1c248de-072b-4edb-8a7d-5f5b7e8b8769&pf_rd_p=a1c248de-072b-4edb-8a7d-5f5b7e8b8769&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_ls_gwc_pc_en2_
+Handled the exception 1
+/COVETKART-Kitchen-Dining-Kitchen-Cutlery/dp/B0F2N3PV3K/?_encoding=UTF8&pd_rd_w=W9az5&content-id=amzn1.sym.a1c248de-072b-4edb-8a7d-5f5b7e8b8769&pf_rd_p=a1c248de-072b-4edb-8a7d-5f5b7e8b8769&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_ls_gwc_pc_en2_
+Handled the exception 1
+/Yomith-Serving-Platter-Appetizer-Dumpling/dp/B0D3BZ6W4K/?_encoding=UTF8&pd_rd_w=W9az5&content-id=amzn1.sym.a1c248de-072b-4edb-8a7d-5f5b7e8b8769&pf_rd_p=a1c248de-072b-4edb-8a7d-5f5b7e8b8769&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_ls_gwc_pc_en2_
+Handled the exception 1
+/Kitchen-Weighing-Machine-10kg-Electronic/dp/B0DST7L9DB/?_encoding=UTF8&pd_rd_w=W9az5&content-id=amzn1.sym.a1c248de-072b-4edb-8a7d-5f5b7e8b8769&pf_rd_p=a1c248de-072b-4edb-8a7d-5f5b7e8b8769&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_ls_gwc_pc_en2_
+Handled the exception 1
+/ORBON-Electric-Induction-Cookwares-SQR-1250-VIT/dp/B08421WV75/?_encoding=UTF8&pd_rd_w=W9az5&content-id=amzn1.sym.a1c248de-072b-4edb-8a7d-5f5b7e8b8769&pf_rd_p=a1c248de-072b-4edb-8a7d-5f5b7e8b8769&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_ls_gwc_pc_en2_
+Handled the exception 1
+/SVDK-Wooden-Handmade-Blender-Kitchen/dp/B0C545762P/?_encoding=UTF8&pd_rd_w=W9az5&content-id=amzn1.sym.a1c248de-072b-4edb-8a7d-5f5b7e8b8769&pf_rd_p=a1c248de-072b-4edb-8a7d-5f5b7e8b8769&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_ls_gwc_pc_en2_
+Handled the exception 1
+/Silicone-Easy-Release-Flexible-Stackable-Multicolor/dp/B0DYJY1LMQ/?_encoding=UTF8&pd_rd_w=W9az5&content-id=amzn1.sym.a1c248de-072b-4edb-8a7d-5f5b7e8b8769&pf_rd_p=a1c248de-072b-4edb-8a7d-5f5b7e8b8769&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_ls_gwc_pc_en2_
+Handled the exception 1
+/Konquer-TimeS-Automatic-Wireless-Dispenser/dp/B07YZ367F6/?_encoding=UTF8&pd_rd_w=W9az5&content-id=amzn1.sym.a1c248de-072b-4edb-8a7d-5f5b7e8b8769&pf_rd_p=a1c248de-072b-4edb-8a7d-5f5b7e8b8769&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_ls_gwc_pc_en2_
+Handled the exception 1
+/YELONA-Gorilla-Dishwasher-Reversible-Chopping/dp/B0CB4HF2RJ/?_encoding=UTF8&pd_rd_w=W9az5&content-id=amzn1.sym.a1c248de-072b-4edb-8a7d-5f5b7e8b8769&pf_rd_p=a1c248de-072b-4edb-8a7d-5f5b7e8b8769&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_ls_gwc_pc_en2_
+Handled the exception 1
+/Machado-Handmade-Serbian-Butcher-Hunters/dp/B0D45L6HZK/?_encoding=UTF8&pd_rd_w=W9az5&content-id=amzn1.sym.a1c248de-072b-4edb-8a7d-5f5b7e8b8769&pf_rd_p=a1c248de-072b-4edb-8a7d-5f5b7e8b8769&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_ls_gwc_pc_en2_
+Handled the exception 1
+/Copper-Bottle-Office-Insulation-Ergonomic/dp/B0D62RQ37K/?_encoding=UTF8&pd_rd_w=W9az5&content-id=amzn1.sym.a1c248de-072b-4edb-8a7d-5f5b7e8b8769&pf_rd_p=a1c248de-072b-4edb-8a7d-5f5b7e8b8769&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_ls_gwc_pc_en2_
+Handled the exception 1
+/Crafties-Art-Mounting-Kitchen-Storage/dp/B0DCVW7LWD/?_encoding=UTF8&pd_rd_w=W9az5&content-id=amzn1.sym.a1c248de-072b-4edb-8a7d-5f5b7e8b8769&pf_rd_p=a1c248de-072b-4edb-8a7d-5f5b7e8b8769&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_ls_gwc_pc_en2_
+Handled the exception 1
+/ETIQUETTE-ART-Wooden-Spatula-Spoon/dp/B0DYK6WJ1H/?_encoding=UTF8&pd_rd_w=W9az5&content-id=amzn1.sym.a1c248de-072b-4edb-8a7d-5f5b7e8b8769&pf_rd_p=a1c248de-072b-4edb-8a7d-5f5b7e8b8769&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_ls_gwc_pc_en2_
+Handled the exception 1
+/sakoraware-Stainless-Essential-Accessories-Combo-Vegetable/dp/B0DWLR6VD2/?_encoding=UTF8&pd_rd_w=W9az5&content-id=amzn1.sym.a1c248de-072b-4edb-8a7d-5f5b7e8b8769&pf_rd_p=a1c248de-072b-4edb-8a7d-5f5b7e8b8769&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_ls_gwc_pc_en2_
+Handled the exception 1
+/Sakoraware-Stainless-Strainer-Professional-Spaetzle/dp/B07GWDKKNC/?_encoding=UTF8&pd_rd_w=W9az5&content-id=amzn1.sym.a1c248de-072b-4edb-8a7d-5f5b7e8b8769&pf_rd_p=a1c248de-072b-4edb-8a7d-5f5b7e8b8769&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_ls_gwc_pc_en2_
+Handled the exception 1
+/Sakoraware-Qulaity-Plastic-Vegetables-Strainer/dp/B07P2MNVXL/?_encoding=UTF8&pd_rd_w=W9az5&content-id=amzn1.sym.a1c248de-072b-4edb-8a7d-5f5b7e8b8769&pf_rd_p=a1c248de-072b-4edb-8a7d-5f5b7e8b8769&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_ls_gwc_pc_en2_
+Handled the exception 1
+/LASER-ART-Self-Stirring-Re-Chargeable-Heat-Resistant/dp/B0DZHL8G1J/?_encoding=UTF8&pd_rd_w=W9az5&content-id=amzn1.sym.a1c248de-072b-4edb-8a7d-5f5b7e8b8769&pf_rd_p=a1c248de-072b-4edb-8a7d-5f5b7e8b8769&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_ls_gwc_pc_en2_
+Handled the exception 1
+/KitchEase-Restaurant-Corporate-Aurum-Gold/dp/B0F23XG1M9/?_encoding=UTF8&pd_rd_w=W9az5&content-id=amzn1.sym.a1c248de-072b-4edb-8a7d-5f5b7e8b8769&pf_rd_p=a1c248de-072b-4edb-8a7d-5f5b7e8b8769&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_ls_gwc_pc_en2_
+Handled the exception 1
+/AVNISH-Plastic-Dispenser-Accessories-Spritzer/dp/B0CXHMWSPH/?_encoding=UTF8&pd_rd_w=W9az5&content-id=amzn1.sym.a1c248de-072b-4edb-8a7d-5f5b7e8b8769&pf_rd_p=a1c248de-072b-4edb-8a7d-5f5b7e8b8769&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_ls_gwc_pc_en2_
+Handled the exception 1
+#
+Handled the exception 1
+#
+Handled the exception 1
+/Bacca-Bucci-Balancer-Basketball-Shoes-White/dp/B09W34KRDL/?_encoding=UTF8&pd_rd_w=OMkLn&content-id=amzn1.sym.6a567e3d-fd9a-4932-aa05-d0107e1bcce7&pf_rd_p=6a567e3d-fd9a-4932-aa05-d0107e1bcce7&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_a2i_gw_cml
+Handled the exception 1
+/Woodland-Leather-Sneaker-OGC-3493119/dp/B09TTXGZ75/?_encoding=UTF8&pd_rd_w=OMkLn&content-id=amzn1.sym.6a567e3d-fd9a-4932-aa05-d0107e1bcce7&pf_rd_p=6a567e3d-fd9a-4932-aa05-d0107e1bcce7&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_a2i_gw_cml
+Handled the exception 1
+/Skechers-mens-EQUALIZER-4-0-232017-CCOR/dp/B07VB98VQW/?_encoding=UTF8&pd_rd_w=OMkLn&content-id=amzn1.sym.6a567e3d-fd9a-4932-aa05-d0107e1bcce7&pf_rd_p=6a567e3d-fd9a-4932-aa05-d0107e1bcce7&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_a2i_gw_cml
+Handled the exception 1
+/Red-Tape-Comfortable-Breathable-Absorbant/dp/B0CGD8JW5C/?_encoding=UTF8&pd_rd_w=OMkLn&content-id=amzn1.sym.6a567e3d-fd9a-4932-aa05-d0107e1bcce7&pf_rd_p=6a567e3d-fd9a-4932-aa05-d0107e1bcce7&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_a2i_gw_cml
+Handled the exception 1
+/s/?_encoding=UTF8&i=fashion&bbn=26064859031&rh=n%3A6648217031%2Cn%3A26064859031%2Cn%3A7459781031%2Cn%3A1983518031&s=apparels&pf_rd_i=22124378031&pf_rd_i=22124378031&pf_rd_m=A1K21FY43GMZF8&pf_rd_m=A1K21FY43GMZF8&pf_rd_s=merchandised-search-5&pf_rd_s=mobile-hybrid-4&pf_rd_t=101&pf_rd_t=30901&ref=mh_s9_acss_cg_hsjcvdg_1f1_w&pd_rd_w=OMkLn&content-id=amzn1.sym.6a567e3d-fd9a-4932-aa05-d0107e1bcce7&pf_rd_p=6a567e3d-fd9a-4932-aa05-d0107e1bcce7&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_a2i_gw_cml
+Handled the exception 1
+/b/?_encoding=UTF8&node=3403635031&pd_rd_w=tJYX6&content-id=amzn1.sym.4de900d9-8b38-4d04-9e78-4e65fee6636f&pf_rd_p=4de900d9-8b38-4d04-9e78-4e65fee6636f&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_unk
+Handled the exception 1
+/b/?_encoding=UTF8&node=1984443031&pd_rd_w=tJYX6&content-id=amzn1.sym.4de900d9-8b38-4d04-9e78-4e65fee6636f&pf_rd_p=4de900d9-8b38-4d04-9e78-4e65fee6636f&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_unk
+Handled the exception 1
+/Well-Set-Multipurpose-Chipser-Unbreakable/dp/B0CG4DY65G/?_encoding=UTF8&pd_rd_w=5pW2Z&content-id=amzn1.sym.8d784dd5-4e78-4b78-ae07-8a4a200eed61&pf_rd_p=8d784dd5-4e78-4b78-ae07-8a4a200eed61&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_LPDEALS
+Handled the exception 1
+/Machado-Japanese-Pocket-Katana-Kitchen/dp/B0D45K4D4R/?_encoding=UTF8&pd_rd_w=5pW2Z&content-id=amzn1.sym.8d784dd5-4e78-4b78-ae07-8a4a200eed61&pf_rd_p=8d784dd5-4e78-4b78-ae07-8a4a200eed61&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_LPDEALS
+Handled the exception 1
+/earthsave-Lunch-Bag-Eco-Friendly-Drawstring/dp/B093K12NYZ/?_encoding=UTF8&pd_rd_w=5pW2Z&content-id=amzn1.sym.8d784dd5-4e78-4b78-ae07-8a4a200eed61&pf_rd_p=8d784dd5-4e78-4b78-ae07-8a4a200eed61&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_LPDEALS
+Handled the exception 1
+/PROBOTT-Stainless-Quality-Material-Perfect/dp/B0D39WT8LY/?_encoding=UTF8&pd_rd_w=5pW2Z&content-id=amzn1.sym.8d784dd5-4e78-4b78-ae07-8a4a200eed61&pf_rd_p=8d784dd5-4e78-4b78-ae07-8a4a200eed61&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_LPDEALS
+Handled the exception 1
+/Phool-Badrinath-Bambooless-Incense-Sticks/dp/B0D3FBDZWL/?_encoding=UTF8&pd_rd_w=W67OD&content-id=amzn1.sym.ece66cf1-5d95-4a2c-8be1-16a4c20146bd&pf_rd_p=ece66cf1-5d95-4a2c-8be1-16a4c20146bd&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_LPDEALS
+Handled the exception 1
+/Slyford-Leak-Proof-Dispenser-Silicon-Vinegar/dp/B0BF6293VR/?_encoding=UTF8&pd_rd_w=W67OD&content-id=amzn1.sym.ece66cf1-5d95-4a2c-8be1-16a4c20146bd&pf_rd_p=ece66cf1-5d95-4a2c-8be1-16a4c20146bd&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_LPDEALS
+Handled the exception 1
+/FOMQUAZLI-Coffee-Straws-Tumbler-Smoothie/dp/B0D4J17DQF/?_encoding=UTF8&pd_rd_w=W67OD&content-id=amzn1.sym.ece66cf1-5d95-4a2c-8be1-16a4c20146bd&pf_rd_p=ece66cf1-5d95-4a2c-8be1-16a4c20146bd&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_LPDEALS
+Handled the exception 1
+/KITOOL-Crinkle-Slicing-Stainless-Vegetable/dp/B0923XG5DW/?_encoding=UTF8&pd_rd_w=W67OD&content-id=amzn1.sym.ece66cf1-5d95-4a2c-8be1-16a4c20146bd&pf_rd_p=ece66cf1-5d95-4a2c-8be1-16a4c20146bd&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_LPDEALS
+Handled the exception 1
+/b/?_encoding=UTF8&node=100293361031&pd_rd_w=6ekrL&content-id=amzn1.sym.afa93b99-ed27-41fc-97d2-3a8a64e6c432&pf_rd_p=afa93b99-ed27-41fc-97d2-3a8a64e6c432&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_NSS
+Handled the exception 1
+/Accessories-Butterfly-Suitable-Diameter-Included/dp/B0DXB82FQH/?_encoding=UTF8&pd_rd_w=6ekrL&content-id=amzn1.sym.afa93b99-ed27-41fc-97d2-3a8a64e6c432&pf_rd_p=afa93b99-ed27-41fc-97d2-3a8a64e6c432&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_NSS
+Handled the exception 1
+/CoolShef-Green-Mini-Comb-Kids/dp/B0DT6YLPC7/?_encoding=UTF8&pd_rd_w=6ekrL&content-id=amzn1.sym.afa93b99-ed27-41fc-97d2-3a8a64e6c432&pf_rd_p=afa93b99-ed27-41fc-97d2-3a8a64e6c432&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_NSS
+Handled the exception 1
+/Fruit-Essentials-Watermelon-Niacinamide-Antioxidant/dp/B0DS5BZQHL/?_encoding=UTF8&pd_rd_w=6ekrL&content-id=amzn1.sym.afa93b99-ed27-41fc-97d2-3a8a64e6c432&pf_rd_p=afa93b99-ed27-41fc-97d2-3a8a64e6c432&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_NSS
+Handled the exception 1
+/APES-Wireless-Headphone-Dynamic-Playtime/dp/B0DTKXC8X6/?_encoding=UTF8&pd_rd_w=6ekrL&content-id=amzn1.sym.afa93b99-ed27-41fc-97d2-3a8a64e6c432&pf_rd_p=afa93b99-ed27-41fc-97d2-3a8a64e6c432&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_NSS
+Handled the exception 1
+/COSTEM-Shelves-Bathroom-Self-Adhesive-Multipurpose/dp/B0CJHZV82H/?_encoding=UTF8&pd_rd_w=6ekrL&content-id=amzn1.sym.afa93b99-ed27-41fc-97d2-3a8a64e6c432&pf_rd_p=afa93b99-ed27-41fc-97d2-3a8a64e6c432&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_NSS
+Handled the exception 1
+/OPTIFINE-Durable-Plastic-Metal-Shoe/dp/B0DRXVL3HF/?_encoding=UTF8&pd_rd_w=6ekrL&content-id=amzn1.sym.afa93b99-ed27-41fc-97d2-3a8a64e6c432&pf_rd_p=afa93b99-ed27-41fc-97d2-3a8a64e6c432&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_NSS
+Handled the exception 1
+/Palind-Stainless-Containers-container-Microwavable/dp/B0DWT2XQP5/?_encoding=UTF8&pd_rd_w=6ekrL&content-id=amzn1.sym.afa93b99-ed27-41fc-97d2-3a8a64e6c432&pf_rd_p=afa93b99-ed27-41fc-97d2-3a8a64e6c432&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_NSS
+Handled the exception 1
+/Nilpari-Stainless-Vegetable-Vegetables-Protective/dp/B0DWXSNS5X/?_encoding=UTF8&pd_rd_w=6ekrL&content-id=amzn1.sym.afa93b99-ed27-41fc-97d2-3a8a64e6c432&pf_rd_p=afa93b99-ed27-41fc-97d2-3a8a64e6c432&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_NSS
+Handled the exception 1
+/Stvin-Magnetic-Cable-Cord-Management/dp/B0DX27F59W/?_encoding=UTF8&pd_rd_w=6ekrL&content-id=amzn1.sym.afa93b99-ed27-41fc-97d2-3a8a64e6c432&pf_rd_p=afa93b99-ed27-41fc-97d2-3a8a64e6c432&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_NSS
+Handled the exception 1
+/VELTO-ENTERPRISES-Self-Adhesive-No-Drill-Heavy-Duty/dp/B0DWKRD3CV/?_encoding=UTF8&pd_rd_w=6ekrL&content-id=amzn1.sym.afa93b99-ed27-41fc-97d2-3a8a64e6c432&pf_rd_p=afa93b99-ed27-41fc-97d2-3a8a64e6c432&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_NSS
+Handled the exception 1
+/Sierra-Bathroom-HAIRFALL-handheld-Handheld/dp/B0DYF5LYV3/?_encoding=UTF8&pd_rd_w=6ekrL&content-id=amzn1.sym.afa93b99-ed27-41fc-97d2-3a8a64e6c432&pf_rd_p=afa93b99-ed27-41fc-97d2-3a8a64e6c432&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_NSS
+Handled the exception 1
+/FreshLuxe-Coffee-Exfoliation-Enriched-Walnut/dp/B0DRSWL27C/?_encoding=UTF8&pd_rd_w=6ekrL&content-id=amzn1.sym.afa93b99-ed27-41fc-97d2-3a8a64e6c432&pf_rd_p=afa93b99-ed27-41fc-97d2-3a8a64e6c432&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_NSS
+Handled the exception 1
+/Platter-Almonds-Cashewnuts-Cranberries-Breakfast/dp/B0DS61LC1K/?_encoding=UTF8&pd_rd_w=6ekrL&content-id=amzn1.sym.afa93b99-ed27-41fc-97d2-3a8a64e6c432&pf_rd_p=afa93b99-ed27-41fc-97d2-3a8a64e6c432&pf_rd_r=BWY9BF2XCKXWR8B3A2P1&pd_rd_wg=5cq2M&pd_rd_r=cf902155-5460-46c1-9f63-b8476ed668d2&ref_=pd_hp_d_btf_NSS
+Handled the exception 1
+#
+Handled the exception 1
+#
+Handled the exception 1
+/gp/history
+Handled the exception 1
+null
+Handled the exception 1
+https://www.aboutamazon.in/?utm_source=gateway&utm_medium=footer
+The link is valid       200https://www.aboutamazon.in/?utm_source=gateway&utm_medium=footer    OK
+https://amazon.jobs
+The link is valid       200https://amazon.jobs    OK
+https://press.aboutamazon.in/?utm_source=gateway&utm_medium=footer
+The link is valid       200https://press.aboutamazon.in/?utm_source=gateway&utm_medium=footer    OK
+https://www.amazon.science
+The link is valid       200https://www.amazon.science    OK
+https://www.amazon.in/gp/redirect.html/ref=footer_fb?location=http://www.facebook.com/AmazonIN&token=2075D5EAC7BB214089728E2183FD391706D41E94&6
+The link is not valid https://www.amazon.in/gp/redirect.html/ref=footer_fb?location=http://www.facebook.com/AmazonIN&token=2075D5EAC7BB214089728E2183FD391706D41E94&6  Not Found
+https://www.amazon.in/gp/redirect.html/ref=footer_twitter?location=http://twitter.com/AmazonIN&token=A309DFBFCB1E37A808FF531934855DC817F130B6&6
+The link is not valid https://www.amazon.in/gp/redirect.html/ref=footer_twitter?location=http://twitter.com/AmazonIN&token=A309DFBFCB1E37A808FF531934855DC817F130B6&6  Not Found
+https://www.amazon.in/gp/redirect.html?location=https://www.instagram.com/amazondotin&token=264882C912E9D005CB1D9B61F12E125D5DF9BFC7&source=standards
+The link is not valid https://www.amazon.in/gp/redirect.html?location=https://www.instagram.com/amazondotin&token=264882C912E9D005CB1D9B61F12E125D5DF9BFC7&source=standards  Not Found
+/b/?node=2838698031&ld=AZINSOANavDesktopFooter_C&ref_=nav_footer_sell_C
+Handled the exception 1
+https://accelerator.amazon.in/?ref_=map_1_b2b_GW_FT
+The link is valid       200https://accelerator.amazon.in/?ref_=map_1_b2b_GW_FT    OK
+https://brandservices.amazon.in/?ref=AOINABRLGNRFOOT&ld=AOINABRLGNRFOOT
+The link is valid       200https://brandservices.amazon.in/?ref=AOINABRLGNRFOOT&ld=AOINABRLGNRFOOT    OK
+https://sell.amazon.in/grow-your-business/amazon-global-selling.html?ld=AZIN_Footer_V1&ref=AZIN_Footer_V1
+The link is valid       200https://sell.amazon.in/grow-your-business/amazon-global-selling.html?ld=AZIN_Footer_V1&ref=AZIN_Footer_V1    OK
+https://supply.amazon.com/?ref_=footer_sta&lang=en-IN
+The link is valid       200https://supply.amazon.com/?ref_=footer_sta&lang=en-IN    OK
+https://affiliate-program.amazon.in/?utm_campaign=assocshowcase&utm_medium=footer&utm_source=GW&ref_=footer_assoc
+The link is valid       200https://affiliate-program.amazon.in/?utm_campaign=assocshowcase&utm_medium=footer&utm_source=GW&ref_=footer_assoc    OK
+https://services.amazon.in/services/fulfilment-by-amazon/benefits.html/ref=az_footer_fba?ld=AWRGINFBAfooter
+The link is valid       200https://services.amazon.in/services/fulfilment-by-amazon/benefits.html/ref=az_footer_fba?ld=AWRGINFBAfooter    OK
+https://advertising.amazon.in/?ref=Amz.in
+The link is valid       200https://advertising.amazon.in/?ref=Amz.in    OK
+https://www.amazonpay.in/merchant
+The link is valid       200https://www.amazonpay.in/merchant    OK
+/gp/css/homepage.html?ref_=footer_ya
+Handled the exception 1
+/gp/css/returns/homepage.html?ref_=footer_hy_f_4
+Handled the exception 1
+https://www.amazon.in/your-product-safety-alerts?ref_=footer_bsx_ypsa
+The link is valid       200https://www.amazon.in/your-product-safety-alerts?ref_=footer_bsx_ypsa    OK
+/gp/help/customer/display.html?nodeId=201083470&ref_=footer_swc
+Handled the exception 1
+/gp/browse.html?node=6967393031&ref_=footer_mobapp
+Handled the exception 1
+/gp/help/customer/display.html?nodeId=200507590&ref_=footer_gw_m_b_he
+Handled the exception 1
+/ref=footer_logo
+Handled the exception 1
+/customer-preferences/edit?ie=UTF8&preferencesReturnUrl=%2F&ref_=footer_lang
+Handled the exception 1
+/customer-preferences/country?ie=UTF8&preferencesReturnUrl=%2F&ref_=footer_icp_cp
+Handled the exception 1
+https://www.abebooks.com/
+The link is valid       200https://www.abebooks.com/    OK
+https://aws.amazon.com/what-is-cloud-computing/?sc_channel=EL&sc_campaign=IN_amazonfooter
+The link is valid       200https://aws.amazon.com/what-is-cloud-computing/?sc_channel=EL&sc_campaign=IN_amazonfooter    null
+https://www.audible.in/
+The link is valid       200https://www.audible.in/    OK
+https://www.imdb.com/
+The link is not valid https://www.imdb.com/  Forbidden
+https://www.shopbop.com/
+The link is valid       200https://www.shopbop.com/    OK
+/business?ref=footer_aingw
+Handled the exception 1
+/now?ref=footer_amznow
+Handled the exception 1
+/music/prime?ref=footer_apm
+Handled the exception 1
+/gp/help/customer/display.html?nodeId=200545940&ref_=footer_cou
+Handled the exception 1
+/gp/help/customer/display.html?nodeId=200534380&ref_=footer_privacy
+Handled the exception 1
+/gp/help/customer/display.html?nodeId=202075050&ref_=footer_iba
+Handled the exception 1
+]]></system-out>
+    <system-err><![CDATA[Jun 04, 2025 4:20:21 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
+WARNING: Connection reset
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434)
+	at java.net.http/jdk.internal.net.http.SocketTube.readAvailable(SocketTube.java:1178)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.read(SocketTube.java:841)
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowTask.run(SocketTube.java:181)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:207)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:280)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:233)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.signalReadable(SocketTube.java:782)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$ReadEvent.signalEvent(SocketTube.java:965)
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowEvent.handle(SocketTube.java:253)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.handleEvent(HttpClientImpl.java:1469)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.lambda$run$3(HttpClientImpl.java:1414)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1414)
+
+Jun 04, 2025 4:20:24 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 137, returning the closest version; found: 135; Please update to a Selenium version that supports CDP version 137
+]]></system-err>
+  </testcase>
+</testsuite>
